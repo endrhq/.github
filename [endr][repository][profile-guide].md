@@ -1,8 +1,8 @@
-# [endr][PROFILE GUIDE]
+# 「 endr 」「 PROFILE GUIDE 」
 
 The public organization profile lives in `profile/README.md`. The root `README.md` mirrors it so the profile repository presents the same company identity. GitHub requires these discovery paths.
 
-## [01][VISUAL IDENTITY]
+## 「 01 」「 VISUAL IDENTITY 」
 
 The banner uses endr’s branching mark and outlined lowercase wordmark, warm ivory, graphite, and muted olive. The contour geometry and network are original conceptual illustrations; they contain no geographic, mission, or performance data.
 
@@ -12,22 +12,22 @@ Banner URLs pin the asset commit so updates display consistently without waiting
 
 Desktop and mobile SVGs are in `profile/[endr][assets][github]/`. The profile uses absolute, encoded raw GitHub URLs so images resolve from both the organization page and repository page.
 
-## [02][SECTION NAMING]
+## 「 02 」「 SECTION NAMING 」
 
-Use `[NN][TITLE]` for section headings: a two-digit number immediately followed by the title in its own brackets. Start each document at `[01]` and number sections consecutively. Keep titles uppercase and the company name `endr` lowercase. Supporting document titles use `[endr][DOCUMENT TITLE]`.
+Use `「 NN 」「 TITLE 」` for section headings: a two-digit number immediately followed by the title in its own pair of corner brackets. Place one space inside each bracket. Start each document at `「 01 」` and number sections consecutively. Keep titles uppercase and the company name `endr` lowercase. Supporting document titles use `「 endr 」「 DOCUMENT TITLE 」`. The organization display name is `「 endr 」`.
 
 | Profile section | Heading |
 | :--- | :--- |
-| `[01]` | `[COMPANY BRIEF]` |
-| `[02]` | `[PLATFORM ARCHITECTURE]` |
-| `[03]` | `[COMMAND PRINCIPLES]` |
-| `[04]` | `[VALIDATION OBJECTIVE]` |
-| `[05]` | `[DEVELOPMENT STATUS]` |
-| `[06]` | `[CONTACT]` |
+| `「 01 」` | `「 COMPANY BRIEF 」` |
+| `「 02 」` | `「 PLATFORM ARCHITECTURE 」` |
+| `「 03 」` | `「 COMMAND PRINCIPLES 」` |
+| `「 04 」` | `「 VALIDATION OBJECTIVE 」` |
+| `「 05 」` | `「 DEVELOPMENT STATUS 」` |
+| `「 06 」` | `「 CONTACT 」` |
 
-Banner references use the corresponding profile numbers with shortened titles, such as `[02][PLATFORM]`. Navigation and standalone status labels use single brackets. These are display labels; repository paths follow the existing endr naming convention.
+Banner references use the corresponding profile numbers with shortened titles, such as `「 02 」「 PLATFORM 」`. Navigation and standalone status labels use one pair, such as `「 WEBSITE 」`. These are display labels; ASCII repository paths, encoded URLs, and Markdown link syntax retain their existing brackets.
 
-## [03][PUBLICATION PROCEDURE]
+## 「 03 」「 PUBLICATION PROCEDURE 」
 
 Keep the two READMEs synchronized. Update the dated public development-status record only when supporting evidence changes. Keep planned mission capabilities separate from implemented internal software. Preserve historical records.
 
