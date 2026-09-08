@@ -1,4 +1,4 @@
-# endr development status
+# [03/001] DEVELOPMENT STATUS
 
 **Evidence reviewed: September 4, 2026**
 
@@ -6,7 +6,7 @@
 
 endr is a legally formed limited liability company based in Seattle, Washington. The company actively develops software through a research and simulation-first program. Its intended product is a vendor-neutral mission-autonomy platform for heterogeneous unmanned systems.
 
-## Current evidence
+## [03/002] EVIDENCE REGISTER
 
 | Area | Observed state | Scope |
 | :--- | :--- | :--- |
@@ -19,7 +19,7 @@ endr is a legally formed limited liability company based in Seattle, Washington.
 
 An animated coordination diagram is an illustration of the intended architecture. It does not demonstrate agent execution, mission simulation, fault tolerance, or command authority. Local software checks do not establish platform security, operational readiness, or deployment approval.
 
-## How to read capability statements
+## [03/003] CLAIMS STANDARD
 
 endr distinguishes **planned**, **designed**, **prototyped**, **implemented**, **tested**, **simulated**, **hardware-tested**, **field-tested**, and **operationally validated** work. Each stronger statement requires evidence for the named component, version, environment, result, and limitations.
 
@@ -27,7 +27,7 @@ Current mission descriptions express development direction and design requiremen
 
 Human authority is a design requirement: agents receive bounded permissions, consequential decisions remain under human authority, and lost communications must never enlarge the mission envelope. The current program does not authorize live vehicle control, field deployment, targeting, weapons integration, or classified/CUI handling.
 
-## Historical repositories
+## [03/004] HISTORICAL RECORD
 
 **SENITEL** is preserved concept documentation from a superseded direction. Historical material does not define the current company thesis and does not establish current mission-platform capability. Educational and other independent projects are not company validation evidence merely because they are nearby or similarly named.
 
