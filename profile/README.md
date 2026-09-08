@@ -1,7 +1,7 @@
 <a href="https://www.endrhq.com">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/endrhq/.github/7c70e328e438ec576b44ca20fdfd5f4852ed098b/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero-mobile%5D.svg">
-    <img src="https://raw.githubusercontent.com/endrhq/.github/7c70e328e438ec576b44ca20fdfd5f4852ed098b/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero%5D.svg" alt="endr — Mission autonomy. Bounded by design." width="100%">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/endrhq/.github/80ddedcb4c6abb4043dc8ea56d9ad8975fc5aec2/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero-mobile%5D.svg">
+    <img src="https://raw.githubusercontent.com/endrhq/.github/80ddedcb4c6abb4043dc8ea56d9ad8975fc5aec2/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero%5D.svg" alt="endr — Mission autonomy. Bounded by design." width="100%">
   </picture>
 </a>
 
@@ -12,13 +12,13 @@
   <a href="mailto:us@endrhq.com">[CONTACT]</a>
 </p>
 
-## [00/001] COMPANY BRIEF
+## [01][COMPANY BRIEF]
 
 endr is a Seattle-based defense-autonomy software company developing a vendor-neutral platform for mission-autonomy agents across heterogeneous unmanned systems. We are a legally formed limited liability company, building through a research and simulation-first program.
 
 Our direction is portable mission software: translate operator intent into bounded tasks, coordinate agents with different capabilities, enforce local constraints, and preserve the evidence needed to explain their decisions.
 
-## [01/001] PLATFORM ARCHITECTURE
+## [02][PLATFORM ARCHITECTURE]
 
 The intended platform connects mission definition, agent development, simulation, edge execution, coordination, and assurance through typed interfaces. Mission logic is designed to remain separate from platform-specific adapters, so each integration can be evaluated against an explicit contract.
 
@@ -28,13 +28,13 @@ The intended platform connects mission definition, agent development, simulation
 
 Ground, aerial, maritime, and space portability is the long-term objective. Each supported domain and integration will require its own evidence.
 
-### [01/002] COMMAND PRINCIPLES
+## [03][COMMAND PRINCIPLES]
 
 - **Humans retain command.** Consequential decisions require human authority; agents operate within an explicit mission envelope.
 - **Lost links never expand authority.** Communications degradation must preserve policy limits and predefined behavior.
 - **Decisions leave evidence.** Task assignments, interventions, policy decisions, and state changes must be attributable and replayable.
 
-## [02/001] VALIDATION OBJECTIVE
+## [04][VALIDATION OBJECTIVE]
 
 The first planned experiment is a deterministic, non-kinetic simulation with two to four unarmed agents representing different platform capabilities.
 
@@ -42,7 +42,7 @@ One reproducible scenario is intended to test capability-aware task assignment, 
 
 The proof target is a documented comparison with a simple scripted or centralized baseline, supported by scenario configuration, seeds, event traces, and replay. Simulation evidence comes before hardware consideration.
 
-## [03/001] DEVELOPMENT STATUS
+## [05][DEVELOPMENT STATUS]
 
 **Active software development · mission platform in design**
 
@@ -52,7 +52,7 @@ These internal artifacts are distinct from the intended mission platform. Fielde
 
 The **SENITEL** repository preserves superseded concept documentation from an earlier direction. It is historical context, not the current product thesis or evidence of current platform capability.
 
-## [04/001] CONTACT
+## [06][CONTACT]
 
 We welcome non-confidential conversations with autonomy and robotics engineers, research groups, and test teams about heterogeneous-system integration, degraded-network evaluation, and attributable autonomy behavior.
 
