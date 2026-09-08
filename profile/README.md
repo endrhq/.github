@@ -1,7 +1,7 @@
 <a href="https://www.endrhq.com">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/endrhq/.github/main/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero-mobile%5D.svg">
-    <img src="https://raw.githubusercontent.com/endrhq/.github/main/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero%5D.svg" alt="endr — Mission autonomy. Bounded by design." width="100%">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/endrhq/.github/7c70e328e438ec576b44ca20fdfd5f4852ed098b/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero-mobile%5D.svg">
+    <img src="https://raw.githubusercontent.com/endrhq/.github/7c70e328e438ec576b44ca20fdfd5f4852ed098b/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero%5D.svg" alt="endr — Mission autonomy. Bounded by design." width="100%">
   </picture>
 </a>
 

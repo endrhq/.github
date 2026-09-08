@@ -8,6 +8,8 @@ The banner uses endr’s branching mark and outlined lowercase wordmark, warm iv
 
 The branching mark follows the founder-supplied website identity. The outlined wordmark uses Cormorant Garamond, distributed under the SIL Open Font License. The existing company avatar uses the same branching mark. No external image service, tracking badge, JavaScript, or animation is required.
 
+Banner URLs pin the asset commit so updates display consistently without waiting for raw-file caches. Refresh both image references when publishing revised artwork.
+
 Desktop and mobile SVGs are in `profile/[endr][assets][github]/`. The profile uses absolute, encoded raw GitHub URLs so images resolve from both the organization page and repository page.
 
 ## [05/003] SECTION DESIGNATORS
