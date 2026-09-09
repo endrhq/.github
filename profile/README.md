@@ -1,7 +1,7 @@
 <a href="https://www.endrhq.com">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/endrhq/.github/3bff025a4d02aec931c46436278a360b6e470c68/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero-mobile%5D.svg">
-    <img src="https://raw.githubusercontent.com/endrhq/.github/3bff025a4d02aec931c46436278a360b6e470c68/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero%5D.svg" alt="endr — Mission autonomy. Bounded by design." width="100%">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/endrhq/.github/8a8b226a2bf4a83fbb321809e36dffc329d6d9e9/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero-mobile%5D.svg">
+    <img src="https://raw.githubusercontent.com/endrhq/.github/8a8b226a2bf4a83fbb321809e36dffc329d6d9e9/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero%5D.svg" alt="endr — Mission autonomy. Human command. Vendor-neutral software in development; research and simulation first. Conceptual coordination illustration." width="100%">
   </picture>
 </a>
 
@@ -29,6 +29,8 @@ The intended platform connects mission definition, agent development, simulation
 Ground, aerial, maritime, and space portability is the long-term objective. Each supported domain and integration will require its own evidence.
 
 ## 「 03 」「 COMMAND PRINCIPLES 」
+
+These principles are requirements for the intended mission platform.
 
 - **Humans retain command.** Consequential decisions require human authority; agents operate within an explicit mission envelope.
 - **Lost links never expand authority.** Communications degradation must preserve policy limits and predefined behavior.
