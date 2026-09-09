@@ -1,20 +1,13 @@
 <a href="https://www.endrhq.com">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/endrhq/.github/8a8b226a2bf4a83fbb321809e36dffc329d6d9e9/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero-mobile%5D.svg">
-    <img src="https://raw.githubusercontent.com/endrhq/.github/8a8b226a2bf4a83fbb321809e36dffc329d6d9e9/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero%5D.svg" alt="endr — Mission autonomy. Human command. Vendor-neutral software in development; research and simulation first. Conceptual coordination illustration." width="100%">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/endrhq/.github/719b4d520052593a5a2cbfd4c3ce8f60413ba549/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero-mobile%5D.svg">
+    <img src="https://raw.githubusercontent.com/endrhq/.github/719b4d520052593a5a2cbfd4c3ce8f60413ba549/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero%5D.svg" alt="endr — Battlefield autonomy. Human command. A battlefield AI company developing vendor-neutral battlefield autonomy software; research and simulation first. Conceptual coordination illustration." width="100%">
   </picture>
 </a>
 
-<p align="center">
-  <a href="https://www.endrhq.com">「 WEBSITE 」</a> &nbsp;
-  <a href="https://github.com/orgs/endrhq/repositories">「 REPOSITORIES 」</a> &nbsp;
-  <a href="https://x.com/endrhq">「 X 」</a> &nbsp;
-  <a href="mailto:us@endrhq.com">「 CONTACT 」</a>
-</p>
-
 ## 「 01 」「 COMPANY BRIEF 」
 
-endr is a Seattle-based defense-autonomy software company developing a vendor-neutral platform for mission-autonomy agents across heterogeneous unmanned systems. We are a legally formed limited liability company, building through a research and simulation-first program.
+endr is a Seattle-based battlefield AI company developing vendor-neutral battlefield autonomy software for heterogeneous unmanned systems. We are a legally formed limited liability company, building through a research and simulation-first program.
 
 Our direction is portable mission software: translate operator intent into bounded tasks, coordinate agents with different capabilities, enforce local constraints, and preserve the evidence needed to explain their decisions.
 

@@ -6,7 +6,7 @@ The public organization profile lives in `profile/README.md`. The root `README.m
 
 The banner uses endr’s branching mark and outlined lowercase wordmark, warm ivory, graphite, and muted olive. The contour geometry and network are original conceptual illustrations; they contain no geographic, mission, or performance data.
 
-Both banner sizes visibly state that the software is in development and the program is research and simulation first. The headline “Mission autonomy. Human command.” expresses the company direction and human-authority requirement. The network is labeled conceptual coordination; it is not an architecture specification, live topology, or simulation result. The illustrated node count does not specify the MVP team size.
+Both banner sizes visibly state that the software is in development and the program is research and simulation first. The headline “Battlefield autonomy. Human command.” expresses the company direction and human-authority requirement. Use “battlefield AI company” for endr’s identity and “battlefield autonomy software” for its product category, following the founder’s September 9, 2026 clarification. The network is labeled conceptual coordination; it is not an architecture specification, live topology, or simulation result. The illustrated node count does not specify the MVP team size.
 
 The branching mark follows the founder-supplied website identity. The outlined wordmark uses Cormorant Garamond, distributed under the SIL Open Font License. The existing company avatar uses the same branching mark. No external image service, tracking badge, JavaScript, or animation is required.
 
@@ -28,6 +28,8 @@ Use `「 NN 」「 TITLE 」` for section headings: a two-digit number immediate
 | `「 06 」` | `「 CONTACT 」` |
 
 The banner footer states the research and simulation-first approach and Seattle location. It contains no section references or simulated navigation controls. Navigation and standalone status labels use one pair, such as `「 WEBSITE 」`. These are display labels; ASCII repository paths, encoded URLs, and Markdown link syntax retain their existing brackets.
+
+The company brief follows the banner directly. Do not repeat the organization header’s website, repository, social, and contact links in a separate row beneath the banner.
 
 ## 「 03 」「 PUBLICATION PROCEDURE 」
 

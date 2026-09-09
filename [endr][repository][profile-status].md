@@ -4,7 +4,7 @@
 
 **Public profile updated: September 9, 2026**
 
-endr is a legally formed limited liability company based in Seattle, Washington. The company actively develops software through a research and simulation-first program. Its intended product is a vendor-neutral mission-autonomy platform for heterogeneous unmanned systems.
+endr is a legally formed limited liability company based in Seattle, Washington. As a battlefield AI company, it is developing vendor-neutral battlefield autonomy software for heterogeneous unmanned systems through a research and simulation-first program.
 
 ## 「 01 」「 EVIDENCE REGISTER 」
 
