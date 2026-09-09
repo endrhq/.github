@@ -1,7 +1,7 @@
 <a href="https://www.endrhq.com">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/endrhq/.github/719b4d520052593a5a2cbfd4c3ce8f60413ba549/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero-mobile%5D.svg">
-    <img src="https://raw.githubusercontent.com/endrhq/.github/719b4d520052593a5a2cbfd4c3ce8f60413ba549/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero%5D.svg" alt="endr — Battlefield autonomy. Human command. A battlefield AI company developing vendor-neutral battlefield autonomy software; research and simulation first. Conceptual coordination illustration." width="100%">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/endrhq/.github/26908a5d15855e1d09a8a76fea6e3eb26ba891c4/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero-mobile%5D.svg">
+    <img src="https://raw.githubusercontent.com/endrhq/.github/26908a5d15855e1d09a8a76fea6e3eb26ba891c4/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero%5D.svg" alt="endr — Battlefield autonomy. Human command. A battlefield AI company developing vendor-neutral battlefield autonomy software; research and simulation first. Conceptual coordination illustration." width="100%">
   </picture>
 </a>
 
