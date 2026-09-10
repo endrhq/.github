@@ -14,7 +14,7 @@ endr is a legally formed limited liability company based in Seattle, Washington.
 | Local task dashboard | Implemented; tested locally | A browser-based tool for editing a specific local task document, with preservation and save safeguards. It is not a multi-user mission-control interface. |
 | Repository validator | Implemented; tested locally | Repository naming, links, image signatures, and classification checks. A passing result establishes repository hygiene within the inspected scope. |
 | Mission architecture and MVP | Designed | Component responsibilities, authority boundaries, and simulation acceptance criteria are documented. Design artifacts do not establish executable mission behavior. |
-| Mission Contract, Agent SDK, Scenario Lab, Rust Edge Runtime, Policy Engine, Mission Mesh, Human Command, replay, and adapters | Designed or planned | Matching mission implementation and validation evidence was not located in the reviewed sources. No reproducible endr mission-simulation result was verified. |
+| Mission platform components | Designed or planned | Matching mission implementation and validation evidence was not located in the reviewed sources. No reproducible endr mission-simulation result was verified. |
 | Hardware, field, and operational validation | Unverified | No qualifying hardware, field, or operational report was located. |
 
 An animated coordination diagram is an illustration of the intended architecture. It does not demonstrate agent execution, mission simulation, fault tolerance, or command authority. Local software checks do not establish platform security, operational readiness, or deployment approval.

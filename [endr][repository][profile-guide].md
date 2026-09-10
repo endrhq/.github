@@ -21,7 +21,7 @@ Use `「 NN 」「 TITLE 」` for section headings: a two-digit number immediate
 | Profile section | Heading |
 | :--- | :--- |
 | `「 01 」` | `「 COMPANY BRIEF 」` |
-| `「 02 」` | `「 PLATFORM ARCHITECTURE 」` |
+| `「 02 」` | `「 OUR FOCUS 」` |
 | `「 03 」` | `「 COMMAND PRINCIPLES 」` |
 | `「 04 」` | `「 VALIDATION OBJECTIVE 」` |
 | `「 05 」` | `「 DEVELOPMENT STATUS 」` |
@@ -34,6 +34,8 @@ The company brief follows the banner directly. Do not repeat the organization he
 ## 「 03 」「 PUBLICATION PROCEDURE 」
 
 Keep the two READMEs synchronized. Update the dated public development-status record only when supporting evidence changes. Keep planned mission capabilities separate from implemented internal software. Preserve historical records.
+
+Keep public copy focused on company identity, intended value, command principles, development approach, and current maturity. Detailed architecture, implementation-language choices, integration roadmaps, and experiment specifications belong in internal documentation. The public development status should state evidence and limitations without enumerating the planned component stack. Editorial updates do not change the evidence-review date.
 
 Before publication, render Markdown through GitHub, inspect both desktop and mobile layouts, verify image loading and links, and check the final diff. The public profile is descriptive company information, not a product release or operational capability announcement.
 

@@ -7,19 +7,11 @@
 
 ## 「 01 」「 COMPANY BRIEF 」
 
-endr is a Seattle-based battlefield AI company developing vendor-neutral battlefield autonomy software for heterogeneous unmanned systems. We are a legally formed limited liability company, building through a research and simulation-first program.
+endr is a Seattle-based battlefield AI company developing vendor-neutral battlefield autonomy software for heterogeneous unmanned systems.
 
-Our direction is portable mission software: translate operator intent into bounded tasks, coordinate agents with different capabilities, enforce local constraints, and preserve the evidence needed to explain their decisions.
+## 「 02 」「 OUR FOCUS 」
 
-## 「 02 」「 PLATFORM ARCHITECTURE 」
-
-The intended platform connects mission definition, agent development, simulation, edge execution, coordination, and assurance through typed interfaces. Mission logic is designed to remain separate from platform-specific adapters, so each integration can be evaluated against an explicit contract.
-
-| BUILD & SIMULATE | EDGE EXECUTION | COORDINATION & ASSURANCE |
-| :--- | :--- | :--- |
-| **Python** — planned tools for mission contracts, reference agents, deterministic scenarios, and baseline evaluation. | **Rust** — planned runtime for bounded tasks, local policy enforcement, resource limits, and health monitoring. | **Mission coordination & assurance** — planned peer coordination, attributable events, and replay across typed adapters. |
-
-Ground, aerial, maritime, and space portability is the long-term objective. Each supported domain and integration will require its own evidence.
+We are developing software to help unmanned systems with different capabilities work together under human direction. The intended platform centers on bounded tasks, coordinated behavior, and decisions that can be traced and reviewed.
 
 ## 「 03 」「 COMMAND PRINCIPLES 」
 
@@ -31,17 +23,13 @@ These principles are requirements for the intended mission platform.
 
 ## 「 04 」「 VALIDATION OBJECTIVE 」
 
-The first planned experiment is a deterministic, non-kinetic simulation with two to four unarmed agents representing different platform capabilities.
-
-One reproducible scenario is intended to test capability-aware task assignment, eligible reassignment, delayed or lost communications, and a simulated platform failure. Operator approval, pause, redirect, and abort controls belong in that same experiment.
-
-The proof target is a documented comparison with a simple scripted or centralized baseline, supported by scenario configuration, seeds, event traces, and replay. Simulation evidence comes before hardware consideration.
+Our development approach starts with research and simulation. We plan to evaluate coordination, human control, and decision traceability through reproducible testing before considering hardware integration.
 
 ## 「 05 」「 DEVELOPMENT STATUS 」
 
 **Active software development · mission platform in design**
 
-As reviewed **September 4, 2026**, internal web software, a local task dashboard, and repository tooling are implemented, with local checks recorded. Mission-platform architecture and MVP specifications exist; mission runtime, SDK, and coordination implementation evidence and reproducible mission-simulation results were not located in the reviewed sources.
+As reviewed **September 4, 2026**, internal software and development tools are implemented, with local checks recorded. The battlefield autonomy platform remains in design; mission-platform implementation and reproducible mission-simulation results were not verified in the reviewed evidence.
 
 These internal artifacts are distinct from the intended mission platform. Fielded, certified, production-ready, or operationally validated mission capabilities are not claimed. [Read the public development status](https://github.com/endrhq/.github/blob/main/%5Bendr%5D%5Brepository%5D%5Bprofile-status%5D.md).
 
