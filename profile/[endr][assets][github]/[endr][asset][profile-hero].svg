@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1440" height="640" viewBox="0 0 1440 640" role="img" aria-labelledby="title desc">
-<title id="title">endr — Battlefield autonomy. Human command. In development.</title>
+<title id="title">endr — Battlefield autonomy. Human command.</title>
 <desc id="desc">endr is a battlefield AI company developing vendor-neutral battlefield autonomy software for heterogeneous unmanned systems. Research and simulation first. The network and abstract contours illustrate a coordination concept, not a working system, real geography, or simulation result. Seattle, Washington.</desc>
 <defs><linearGradient id="fade"><stop stop-color="#151917"/><stop offset="1" stop-color="#0e1211"/></linearGradient>
 <radialGradient id="wash"><stop stop-color="#7d8971" stop-opacity=".14"/><stop offset="1" stop-color="#7d8971" stop-opacity="0"/></radialGradient>
@@ -48,7 +48,6 @@
 <text x="60" y="366" fill="#f5f2eb" font-family="Arial, Helvetica, sans-serif" font-size="70" font-weight="600" letter-spacing="-2.8">Human command.</text>
 <text x="64" y="426" fill="#bbc0b4" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" letter-spacing="0">Developing vendor-neutral software</text>
 <text x="64" y="463" fill="#bbc0b4" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="400" letter-spacing="0">for heterogeneous unmanned systems.</text>
-<text x="1080" y="85" fill="#d0d8bf" font-family="monospace" font-size="20" font-weight="400" letter-spacing="1">「 IN DEVELOPMENT 」</text>
 <text x="970" y="139" fill="#a4ae98" font-family="monospace" font-size="15" font-weight="400" letter-spacing="0.5">「 CONCEPTUAL COORDINATION 」</text>
 <path d="M64 528H1376" stroke="#495043"/>
 <text x="64" y="576" fill="#c5ccb8" font-family="monospace" font-size="20" font-weight="400" letter-spacing="0.9">「 RESEARCH &amp; SIMULATION FIRST 」</text>
