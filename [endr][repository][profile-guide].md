@@ -6,7 +6,7 @@ The public organization profile lives in `profile/README.md`. The root `README.m
 
 The banner uses endr’s branching mark and outlined lowercase wordmark, warm ivory, graphite, and muted olive. The contour geometry and network are original conceptual illustrations; they contain no geographic, mission, or performance data.
 
-Both banner sizes retain “Developing vendor-neutral software” and the research and simulation-first approach. The banner has no standalone development-status badge; detailed maturity is stated in the profile’s Development Status section. The category label is `「 BATTLEFIELD AI 」`. The headline “Battlefield autonomy. Human command.” expresses the company direction and human-authority requirement. Use “battlefield AI company” for endr’s identity and “battlefield autonomy software” for its product category, following the founder’s September 9, 2026 clarification. The network is labeled conceptual coordination; it is not an architecture specification, live topology, or simulation result. The illustrated node count does not specify the MVP team size.
+Both banner sizes state “Developing mission-assurance software” and retain the research and simulation-first approach. The category label is `「 BATTLEFIELD AI 」`; the headline is “Mission assurance. Human command.” The September 19, 2026 direction places mission assurance first and resilient edge execution later. The network is labeled conceptual coordination: an illustration, not an architecture specification, live topology, or simulation result. Its node count does not specify the MVP team size. Detailed maturity remains in the Development Status section.
 
 The branching mark follows the founder-supplied website identity. The outlined wordmark uses Cormorant Garamond, distributed under the SIL Open Font License. The existing company avatar uses the same branching mark. No external image service, tracking badge, JavaScript, or animation is required.
 
@@ -33,7 +33,7 @@ The company brief follows the banner directly. Do not repeat the organization he
 
 ## 「 03 」「 PUBLICATION PROCEDURE 」
 
-Keep the two READMEs synchronized. Update the dated public development-status record only when supporting evidence changes. Keep planned mission capabilities separate from implemented internal software. Preserve historical records.
+Keep the two READMEs synchronized. Preserve the evidence-review date unless supporting evidence changes. Record editorial direction changes separately from publication dates. Keep planned mission capabilities separate from implemented internal software. Preserve historical records.
 
 Keep public copy focused on company identity, intended value, command principles, development approach, and current maturity. Detailed architecture, implementation-language choices, integration roadmaps, and experiment specifications belong in internal documentation. The public development status should state evidence and limitations without enumerating the planned component stack. Editorial updates do not change the evidence-review date.
 

@@ -2,9 +2,11 @@
 
 **Evidence reviewed: September 4, 2026**
 
-**Public profile updated: September 9, 2026**
+**Public profile revision: September 19, 2026**
 
-endr is a legally formed limited liability company based in Seattle, Washington. As a battlefield AI company, it is developing vendor-neutral battlefield autonomy software for heterogeneous unmanned systems through a research and simulation-first program.
+endr is a legally formed limited liability company based in Seattle, Washington. As a battlefield AI company, it is developing vendor-neutral mission-assurance software for heterogeneous human–AI teams through a research and simulation-first program, with resilient edge execution as a later objective. The September 19 strategy revision changes emphasis, not the September 4 evidence-review date.
+
+The current initial product experiment is Mission Assurance Lab, with synthetic contested sustainment as its first mission hypothesis. It remains proposed design; this profile revision supplies no new implementation or simulation evidence.
 
 ## 「 01 」「 EVIDENCE REGISTER 」
 
