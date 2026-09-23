@@ -2,7 +2,7 @@
 
 The public organization profile lives in `profile/README.md`. The root `README.md` mirrors it so the profile repository presents the same company identity. GitHub requires these discovery paths.
 
-The 2026-09-23 addition uses the original company system map from `/Users/house/endr/[endr][assets]/[endr][assets][github-assurance-panels-v1]/`. Its SVG in `profile/[endr][assets][github]/` is a publication copy. The four founder-supplied screenshots guided the dark schematic treatment; no source pixels, third-party copy, asserted performance numbers, or live telemetry were imported. The panel explicitly labels later execution as conditional and the artwork as illustrative.
+The current company system map uses the `github-assurance-panels-v2` family in `/Users/house/endr/[endr][assets]/`. Its PNGs in `profile/[endr][assets][github]/` are publication copies. The built-in image generation tool reinterpreted the original company SVG and the v8 coastal banner into a restrained evergreen/ivory diagram with contour lines, an authority rail, and isometric system geometry. The original v1 SVG and source family remain as history. No third-party screenshot pixels or copy were imported.
 
 ## 「 01 」「 VISUAL IDENTITY 」
 
@@ -15,6 +15,8 @@ The source banner follows the founder-supplied website identity. It was edited w
 Banner URLs pin the asset commit so updates display consistently without waiting for raw-file caches. Refresh the image reference in both READMEs when publishing revised artwork.
 
 The banner PNG and historical SVGs are in `profile/[endr][assets][github]/`. The profile uses absolute, encoded raw GitHub URLs so images resolve from both the organization page and repository page.
+
+The system map uses a landscape composition at wider viewports and a separate portrait composition at 640 px and below, selected with a GitHub-compatible `<picture>` element. Its image description and surrounding README text preserve the meaning accessibly. Human authority governs both systems; the Lab is the first product, and the later edge direction requires evidence, need, and approval. The artwork is conceptual, with no live data or measured result. Node counts, layers, and contours are illustrative geometry rather than an implementation or team specification. Pin both image URLs to the asset commit and update both READMEs together.
 
 ## 「 02 」「 SECTION NAMING 」
 
