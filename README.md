@@ -12,7 +12,10 @@ endr is a Seattle-based battlefield AI company developing software for bounded h
 
 The intended output is a reproducible comparison and failure-evidence package for a human engineering acceptance decision. M.A.L. is endr’s first product. Resilient edge execution is a later objective, guided by evidence and customer need.
 
-![Conceptual company system map showing bounded human authority, Mission Assurance Lab as the first product, and conditional later edge execution. No live mission data or test result.](https://raw.githubusercontent.com/endrhq/.github/46c47e68123ede32c8a7ff2b63c7d5cb372aef72/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map%5D.svg)
+<picture>
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/endrhq/.github/df991b629ef9158e265a7e2894f24cd1073f7fe5/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-mobile-v2%5D.png">
+  <img src="https://raw.githubusercontent.com/endrhq/.github/df991b629ef9158e265a7e2894f24cd1073f7fe5/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-v2%5D.png" alt="Conceptual endr system map. Human authority sets bounds and reviews evidence. Mission Assurance Lab is the first product, supporting comparison under defined faults and engineering acceptance evidence. Later edge execution requires evidence, need, and approval. No live mission data or test result." width="100%">
+</picture>
 
 ## 「 03 」「 COMMAND PRINCIPLES 」
 
