@@ -2,6 +2,8 @@
 
 The public organization profile lives in `profile/README.md`. The root `README.md` mirrors it so the profile repository presents the same company identity. GitHub requires these discovery paths.
 
+The 2026-09-23 addition uses the original company system map from `/Users/house/endr/[endr][assets]/[endr][assets][github-assurance-panels-v1]/`. Its SVG in `profile/[endr][assets][github]/` is a publication copy. The four founder-supplied screenshots guided the dark schematic treatment; no source pixels, third-party copy, asserted performance numbers, or live telemetry were imported. The panel explicitly labels later execution as conditional and the artwork as illustrative.
+
 ## 「 01 」「 VISUAL IDENTITY 」
 
 The banner uses endr’s branching mark and outlined lowercase wordmark, warm ivory, graphite, and muted olive. The contour geometry and network are original conceptual illustrations; they contain no geographic, mission, or performance data.
@@ -21,10 +23,10 @@ Use `「 NN 」「 TITLE 」` for section headings: a two-digit number immediate
 | Profile section | Heading |
 | :--- | :--- |
 | `「 01 」` | `「 COMPANY BRIEF 」` |
-| `「 02 」` | `「 OUR FOCUS 」` |
+| `「 02 」` | `「 FIRST PRODUCT 」` |
 | `「 03 」` | `「 COMMAND PRINCIPLES 」` |
-| `「 04 」` | `「 VALIDATION OBJECTIVE 」` |
-| `「 05 」` | `「 DEVELOPMENT STATUS 」` |
+| `「 04 」` | `「 RESEARCH DIRECTION 」` |
+| `「 05 」` | `「 EVIDENCE AND LIMITS 」` |
 | `「 06 」` | `「 CONTACT 」` |
 
 The banner footer states the research and simulation-first approach and Seattle location. It contains no section references or simulated navigation controls. Navigation and standalone status labels use one pair, such as `「 WEBSITE 」`. These are display labels; ASCII repository paths, encoded URLs, and Markdown link syntax retain their existing brackets.
