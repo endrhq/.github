@@ -34,7 +34,7 @@ The banner contains no section references or simulated navigation controls. Navi
 
 The company brief follows the banner directly. Do not repeat the organization header’s website, repository, social, and contact links in a separate row beneath the banner.
 
-The Contact section uses unboxed email, website, and X icons in muted sage. The self-contained SVG masters live in the local `github-link-icons-v1` asset family; publication copies live beside the profile artwork. Keep each link's descriptive image alt text and title, 32-pixel canvas, and even spacing. Pin icon URLs to their asset commit in both READMEs. Contextual research and evidence references keep descriptive link text.
+The Contact section uses unboxed website, email, and X icons in muted sage, with the same globe and envelope geometry, color, size, and spacing as the personal GitHub profile. The self-contained SVG masters live in the local `github-link-icons-v1` asset family; publication copies live beside the profile artwork. Keep each link's descriptive image alt text and title, 32-pixel canvas, and even spacing. Pin icon URLs to their asset commit in both READMEs using `https://github.com/endrhq/.github/raw/<commit>/…`. This follows the personal profile’s GitHub raw route and avoids the rounded fallback backgrounds applied to these external `raw.githubusercontent.com` SVGs. Contextual research and evidence references keep descriptive link text.
 
 ## 「 03 」「 PUBLICATION PROCEDURE 」
 

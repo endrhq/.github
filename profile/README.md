@@ -36,7 +36,7 @@ Mission assurance, distributed coordination, and edge intelligence shape endr’
 For engineering collaboration and research inquiries.
 
 <p>
-  <a href="mailto:us@endrhq.com" title="Email endr"><img src="https://raw.githubusercontent.com/endrhq/.github/fc58ff67b485a2be229b8ab74943773f10bc318f/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Blink-email-v1%5D.svg" alt="Email endr" width="32" height="32"></a> &nbsp;&nbsp;
-  <a href="https://www.endrhq.com" title="endr website"><img src="https://raw.githubusercontent.com/endrhq/.github/fc58ff67b485a2be229b8ab74943773f10bc318f/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Blink-website-v1%5D.svg" alt="endr website" width="32" height="32"></a> &nbsp;&nbsp;
-  <a href="https://x.com/endrhq" title="endr on X"><img src="https://raw.githubusercontent.com/endrhq/.github/fc58ff67b485a2be229b8ab74943773f10bc318f/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Blink-x-v1%5D.svg" alt="endr on X" width="32" height="32"></a>
+  <a href="https://www.endrhq.com" title="endr website"><img src="https://github.com/endrhq/.github/raw/fc58ff67b485a2be229b8ab74943773f10bc318f/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Blink-website-v1%5D.svg" alt="endr website" width="32" height="32"></a> &nbsp;&nbsp;
+  <a href="mailto:us@endrhq.com" title="Email endr"><img src="https://github.com/endrhq/.github/raw/fc58ff67b485a2be229b8ab74943773f10bc318f/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Blink-email-v1%5D.svg" alt="Email endr" width="32" height="32"></a> &nbsp;&nbsp;
+  <a href="https://x.com/endrhq" title="endr on X"><img src="https://github.com/endrhq/.github/raw/fc58ff67b485a2be229b8ab74943773f10bc318f/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Blink-x-v1%5D.svg" alt="endr on X" width="32" height="32"></a>
 </p>
