@@ -15,7 +15,7 @@ endr is a Seattle-based battlefield AI company developing software for bounded h
 
 The intended output is a reproducible comparison and failure-evidence package for a human engineering acceptance decision. M.A.L. is endr’s first product. Resilient edge execution is a later objective, guided by evidence and customer need.
 
-![Conceptual company system map showing bounded human authority, Mission Assurance Lab as the first product, and conditional later edge execution. No live mission data or test result.](https://raw.githubusercontent.com/endrhq/.github/main/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map%5D.svg)
+![Conceptual company system map showing bounded human authority, Mission Assurance Lab as the first product, and conditional later edge execution. No live mission data or test result.](https://raw.githubusercontent.com/endrhq/.github/46c47e68123ede32c8a7ff2b63c7d5cb372aef72/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map%5D.svg)
 
 ## 「 03 」「 COMMAND PRINCIPLES 」
 
