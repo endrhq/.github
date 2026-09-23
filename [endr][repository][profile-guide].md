@@ -2,7 +2,7 @@
 
 The public organization profile lives in `profile/README.md`. The root `README.md` mirrors it so the profile repository presents the same company identity. GitHub requires these discovery paths.
 
-The current company system map uses the `github-assurance-panels-v2` family in `/Users/house/endr/[endr][assets]/`. Its PNGs in `profile/[endr][assets][github]/` are publication copies. The built-in image generation tool reinterpreted the original company SVG and the v8 coastal banner into a restrained evergreen/ivory diagram with contour lines, an authority rail, and isometric system geometry. The original v1 SVG and source family remain as history. No third-party screenshot pixels or copy were imported.
+The current company system map uses the `github-assurance-panels-v3` family in `/Users/house/endr/[endr][assets]/`. Its PNGs in `profile/[endr][assets][github]/` are publication copies. The built-in image generation tool produced the evergreen/ivory diagram with contour lines, an authority rail, and isometric system geometry. The v3 edit replaces product-sequence labels with assurance and systems-research domains, following the founder’s September 23 public-voice correction. The original v1 SVG and prior v2 raster family remain as history. No third-party screenshot pixels or copy were imported.
 
 ## 「 01 」「 VISUAL IDENTITY 」
 
@@ -16,7 +16,7 @@ Banner URLs pin the asset commit so updates display consistently without waiting
 
 The banner PNG and historical SVGs are in `profile/[endr][assets][github]/`. The profile uses absolute, encoded raw GitHub URLs so images resolve from both the organization page and repository page.
 
-The system map uses a landscape composition at wider viewports and a separate portrait composition at 640 px and below, selected with a GitHub-compatible `<picture>` element. Its image description and surrounding README text preserve the meaning accessibly. Human authority governs both systems; the Lab is the first product, and the later edge direction requires evidence, need, and approval. The artwork is conceptual, with no live data or measured result. Node counts, layers, and contours are illustrative geometry rather than an implementation or team specification. Pin both image URLs to the asset commit and update both READMEs together.
+The system map uses a landscape composition at wider viewports and a separate portrait composition at 640 px and below, selected with a GitHub-compatible `<picture>` element. Its image description and surrounding README text preserve the meaning accessibly. Human authority governs both areas. Public labels describe functions: assurance and systems research. Edge intelligence names the research domain; it is not an announcement of an available execution product. The artwork is conceptual, with no live data or measured result. Node counts, layers, and contours are illustrative geometry rather than an implementation or team specification. Pin both image URLs to the asset commit and update both READMEs together.
 
 ## 「 02 」「 SECTION NAMING 」
 
@@ -25,11 +25,10 @@ Use `「 NN 」「 TITLE 」` for section headings: a two-digit number immediate
 | Profile section | Heading |
 | :--- | :--- |
 | `「 01 」` | `「 COMPANY BRIEF 」` |
-| `「 02 」` | `「 FIRST PRODUCT 」` |
+| `「 02 」` | `「 MISSION ASSURANCE 」` |
 | `「 03 」` | `「 COMMAND PRINCIPLES 」` |
-| `「 04 」` | `「 RESEARCH DIRECTION 」` |
-| `「 05 」` | `「 EVIDENCE AND LIMITS 」` |
-| `「 06 」` | `「 CONTACT 」` |
+| `「 04 」` | `「 RESEARCH AND ENGINEERING 」` |
+| `「 05 」` | `「 CONTACT 」` |
 
 The banner contains no section references or simulated navigation controls. Navigation and standalone status labels use one pair, such as `「 WEBSITE 」`. These are display labels; ASCII repository paths, encoded URLs, and Markdown link syntax retain their existing brackets.
 
@@ -39,8 +38,8 @@ The company brief follows the banner directly. Do not repeat the organization he
 
 Keep the two READMEs synchronized. Preserve the evidence-review date unless supporting evidence changes. Record editorial direction changes separately from publication dates. Keep planned mission capabilities separate from implemented internal software. Preserve historical records.
 
-Keep public copy focused on company identity, intended value, command principles, development approach, and current maturity. Detailed architecture, implementation-language choices, integration roadmaps, and experiment specifications belong in internal documentation. The public development status should state evidence and limitations without enumerating the planned component stack. Editorial updates do not change the evidence-review date.
+Use a direct, established company voice: identity, engineering purpose, command principles, research domains, and contact. Avoid launch-stage labels such as “first product,” “later direction,” “upcoming,” and “initial experiment” in the public profile and artwork. Technical evidence remains directly linked and must retain its accurate implementation and validation boundaries. Detailed roadmaps, proposed experiments, and implementation-language choices belong in technical records. An editorial change does not change product sequencing, evidence-review dates, authorization, or capability maturity. Do not introduce unsupported adoption, deployment, performance, partnership, or certification claims.
 
 Before publication, render Markdown through GitHub, inspect both desktop and mobile layouts, verify image loading and links, and check the final diff. The public profile is descriptive company information, not a product release or operational capability announcement.
 
-[Development status](<[endr][repository][profile-status].md>) · [Organization](https://github.com/endrhq)
+[Technical evidence](<[endr][repository][profile-status].md>) · [Organization](https://github.com/endrhq)

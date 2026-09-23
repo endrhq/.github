@@ -40,3 +40,7 @@ Human authority is a design requirement: agents receive bounded permissions, con
 The independent, private [Mission Assurance Lab repository](https://github.com/endrhq/mission-assurance-lab) now contains a read-only Python CLI, draft-contract consistency checks, synthetic fixtures, and repository tests. Its initial hosted checks passed on Python 3.11–3.13. This updates the repository-tooling row of the September 4 inventory; it does not replace that dated review or establish a mission simulation.
 
 The September 21 company/product clarification defines M.A.L. as endr’s first product for engineering acceptance and regression evidence. Runtime authority enforcement, fault simulation, operator controls, replay, edge execution, hardware and field validation remain without implementation or qualifying results in this record. G0 remains open and required reviewers are unassigned. The profile’s new schematic panels are conceptual illustrations, not live data.
+
+## 「 05 」「 SEPTEMBER 23 PUBLIC VOICE REVISION 」
+
+The public profile now describes company identity, engineering purpose, principles, and research domains without product-sequence labels. The revised system map uses “Assurance” and “Systems Research”; “Edge intelligence” names a research domain. These editorial changes add no implementation, deployment, customer, performance, or validation evidence. The technical states, sequence, review requirements, and authorization boundaries recorded above remain unchanged.
