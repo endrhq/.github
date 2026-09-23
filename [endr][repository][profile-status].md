@@ -2,11 +2,11 @@
 
 **Evidence reviewed: September 4, 2026**
 
-**Public profile revision: September 19, 2026**
+**Public profile revision: September 23, 2026**
 
-endr is a legally formed limited liability company based in Seattle, Washington. As a battlefield AI company, it is developing vendor-neutral mission-assurance software for heterogeneous human–AI teams through a research and simulation-first program, with resilient edge execution as a later objective. The September 19 strategy revision changes emphasis, not the September 4 evidence-review date.
+endr is a legally formed limited liability company based in Seattle, Washington. As a battlefield AI company, it is developing software for bounded human–AI mission coordination and execution through a research and simulation-first program. Mission Assurance Lab is its first product; resilient edge execution is a conditional later objective. The September 19 and 21 strategy revisions change direction and product definition, not the September 4 evidence-review date.
 
-The current initial product experiment is Mission Assurance Lab, with synthetic contested sustainment as its first mission hypothesis. It remains proposed design; this profile revision supplies no new implementation or simulation evidence.
+Mission Assurance Lab's first experiment proposal is synthetic supply-task scheduling within the contested-sustainment hypothesis. The new repository foundation and draft validator are addressed in the addendum below. This profile revision supplies no mission simulation evidence.
 
 ## 「 01 」「 EVIDENCE REGISTER 」
 
@@ -34,3 +34,9 @@ Human authority is a design requirement: agents receive bounded permissions, con
 **SENITEL** is preserved concept documentation from a superseded direction. Historical material does not define the current company thesis and does not establish current mission-platform capability. Educational and other independent projects are not company validation evidence merely because they are nearby or similarly named.
 
 [Return to the organization](https://github.com/endrhq) · [Company website](https://www.endrhq.com) · [Contact](mailto:us@endrhq.com)
+
+## 「 04 」「 SEPTEMBER 21 FOUNDATION ADDENDUM 」
+
+The independent, private [Mission Assurance Lab repository](https://github.com/endrhq/mission-assurance-lab) now contains a read-only Python CLI, draft-contract consistency checks, synthetic fixtures, and repository tests. Its initial hosted checks passed on Python 3.11–3.13. This updates the repository-tooling row of the September 4 inventory; it does not replace that dated review or establish a mission simulation.
+
+The September 21 company/product clarification defines M.A.L. as endr’s first product for engineering acceptance and regression evidence. Runtime authority enforcement, fault simulation, operator controls, replay, edge execution, hardware and field validation remain without implementation or qualifying results in this record. G0 remains open and required reviewers are unassigned. The profile’s new schematic panels are conceptual illustrations, not live data.

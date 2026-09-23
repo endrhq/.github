@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">endr conceptual company system map</title>
+  <desc id="desc">A human authority boundary connects mission assurance with a conditional future edge execution layer. This is an illustration, not a live system or test result.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1"><stop stop-color="#101819"/><stop offset="1" stop-color="#0a1014"/></linearGradient>
+    <linearGradient id="signal" x2="1"><stop stop-color="#83bb9d"/><stop offset="1" stop-color="#7aa4d0"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#274044" stroke-width="1" opacity=".38"/></pattern>
+    <style>
+      .k{font:600 14px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:3px;fill:#86a69c}.h{font:600 38px Arial,Helvetica,sans-serif;fill:#f0eee5}.b{font:18px Arial,Helvetica,sans-serif;fill:#b7c3bb}.m{font:600 14px ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:1px;fill:#c9d8ce}.s{font:13px ui-monospace,SFMono-Regular,Consolas,monospace;fill:#9aacaa}.pulse{animation:travel 5s ease-in-out infinite alternate}@keyframes travel{to{transform:translateX(18px);opacity:.35}}@media(prefers-reduced-motion:reduce){.pulse{animation:none}}
+    </style>
+  </defs>
+  <rect width="1200" height="620" rx="18" fill="url(#background)"/><rect x="1" y="1" width="1198" height="618" rx="17" fill="none" stroke="#354548"/>
+  <rect x="28" y="28" width="1144" height="564" fill="url(#grid)" opacity=".5"/>
+  <text class="k" x="64" y="67">「 endr 」 / RESEARCH SYSTEM MAP</text><text class="s" x="1027" y="67">CONCEPT 01 / 02</text>
+  <text class="h" x="64" y="126">Human-led missions under degraded conditions.</text>
+  <text class="b" x="64" y="158">Bounded coordination and execution, with assurance first.</text>
+  <path d="M174 352H1026" stroke="#43625e" stroke-width="2" stroke-dasharray="5 9"/><path d="M423 352h333" stroke="url(#signal)" stroke-width="3"/>
+  <circle class="pulse" cx="464" cy="352" r="5" fill="#a0d9b1"/><circle class="pulse" cx="730" cy="352" r="5" fill="#8cbbdb"/>
+  <rect x="64" y="220" width="302" height="265" rx="12" fill="#172320" stroke="#50745f"/><rect x="64" y="220" width="302" height="5" rx="2" fill="#88b79a"/>
+  <text class="k" x="88" y="259">01 / HUMAN AUTHORITY</text><text class="m" x="88" y="312">Set mission bounds</text><text class="m" x="88" y="347">Review evidence</text><text class="m" x="88" y="382">Decide next test stage</text><text class="s" x="88" y="446">Authority is explicit and scoped.</text>
+  <rect x="450" y="220" width="302" height="265" rx="12" fill="#1b2524" stroke="#6a967a"/><rect x="450" y="220" width="302" height="5" rx="2" fill="#a2c69b"/>
+  <text class="k" x="474" y="259">02 / FIRST PRODUCT</text><text class="h" x="474" y="313" style="font-size:22px">Mission Assurance Lab</text><text class="m" x="474" y="354">Compare changes + faults</text><text class="m" x="474" y="389">Reconstruct decisions</text><text class="s" x="474" y="446">Engineering acceptance evidence</text>
+  <rect x="836" y="220" width="302" height="265" rx="12" fill="#172027" stroke="#506b7d"/><rect x="836" y="220" width="302" height="5" rx="2" fill="#779bb4"/>
+  <text class="k" x="860" y="259" fill="#93b9ce">03 / CONDITIONAL LATER</text><text class="h" x="860" y="313" style="font-size:25px">Edge execution</text><text class="m" x="860" y="354">Operate within bounds</text><text class="m" x="860" y="389">Reconcile degraded links</text><text class="s" x="860" y="446">Requires evidence + approval</text>
+  <text class="s" x="64" y="556">SYNTHETIC RESEARCH DIRECTION  ·  NO LIVE MISSION DATA</text><text class="s" x="872" y="556">ILLUSTRATIVE / NOT A TEST RESULT</text>
+</svg>
