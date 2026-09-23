@@ -6,15 +6,15 @@ The 2026-09-23 addition uses the original company system map from `/Users/house/
 
 ## 「 01 」「 VISUAL IDENTITY 」
 
-The banner uses endr’s branching mark and outlined lowercase wordmark, warm ivory, graphite, and muted olive. The contour geometry and network are original conceptual illustrations; they contain no geographic, mission, or performance data. The current desktop/mobile exports come from the `github-profile-v7` source family in `/Users/house/endr/[endr][assets]/`.
+The current banner is the `github-profile-v8` coastal tactical artwork in `/Users/house/endr/[endr][assets]/`. It adapts endr’s existing `coastal-opening-v3` oil-painted banner with a subdued sage/ivory grid, terrain contours, and sparse coordination nodes. The centered branching mark and lowercase serif wordmark remain the focal point. The scene and overlay are concept artwork, with no mission telemetry or measured performance.
 
-Both banner sizes state “Software for bounded human–AI missions under degraded conditions” and retain the research and simulation-first approach. The category label is `「 BATTLEFIELD AI 」`; the headline is “Mission assurance. Human command.” The September 21, 2026 direction makes Mission Assurance Lab the first product within a broader company mission. The network is labeled conceptual coordination: an illustration, not an architecture specification, live topology, or simulation result. Its node count does not specify the MVP team size. Detailed maturity remains in the Evidence and Limits section.
+One 2172 × 724 PNG scales proportionally across desktop and mobile without cropping. The sole in-image text is `endr`; the company brief and research scope remain accessible README text beneath it. The prior v7 desktop/mobile SVGs remain in the repository and local source family as history. The decorative network’s node count does not specify the MVP team size.
 
-The branching mark follows the founder-supplied website identity. The outlined wordmark uses Cormorant Garamond, distributed under the SIL Open Font License. The existing company avatar uses the same branching mark. No external image service, tracking badge, JavaScript, or animation is required.
+The source banner follows the founder-supplied website identity. It was edited with the built-in image generation tool; the full prompt, raw output, source relationships, and checksums are retained in the local v8 provenance record. The existing company avatar uses the same branching mark. The header requires no JavaScript or external image service.
 
-Banner URLs pin the asset commit so updates display consistently without waiting for raw-file caches. Refresh both image references when publishing revised artwork.
+Banner URLs pin the asset commit so updates display consistently without waiting for raw-file caches. Refresh the image reference in both READMEs when publishing revised artwork.
 
-Desktop and mobile SVGs are in `profile/[endr][assets][github]/`. The profile uses absolute, encoded raw GitHub URLs so images resolve from both the organization page and repository page.
+The banner PNG and historical SVGs are in `profile/[endr][assets][github]/`. The profile uses absolute, encoded raw GitHub URLs so images resolve from both the organization page and repository page.
 
 ## 「 02 」「 SECTION NAMING 」
 
@@ -29,7 +29,7 @@ Use `「 NN 」「 TITLE 」` for section headings: a two-digit number immediate
 | `「 05 」` | `「 EVIDENCE AND LIMITS 」` |
 | `「 06 」` | `「 CONTACT 」` |
 
-The banner footer states the research and simulation-first approach and Seattle location. It contains no section references or simulated navigation controls. Navigation and standalone status labels use one pair, such as `「 WEBSITE 」`. These are display labels; ASCII repository paths, encoded URLs, and Markdown link syntax retain their existing brackets.
+The banner contains no section references or simulated navigation controls. Navigation and standalone status labels use one pair, such as `「 WEBSITE 」`. These are display labels; ASCII repository paths, encoded URLs, and Markdown link syntax retain their existing brackets.
 
 The company brief follows the banner directly. Do not repeat the organization header’s website, repository, social, and contact links in a separate row beneath the banner.
 
