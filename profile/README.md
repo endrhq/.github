@@ -1,7 +1,7 @@
 <a href="https://www.endrhq.com">
   <picture>
-    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/endrhq/.github/393abc1b6090412bc85a0d82b013f9b4e567a702/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero-mobile%5D.svg">
-    <img src="https://raw.githubusercontent.com/endrhq/.github/393abc1b6090412bc85a0d82b013f9b4e567a702/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero%5D.svg" alt="endr conceptual coordination artwork. Battlefield AI, mission assurance, and human command." width="100%">
+    <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/endrhq/.github/454bd9ed14d1f65dc8c22bbb1765dc1c6bec16c9/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero-mobile%5D.svg">
+    <img src="https://raw.githubusercontent.com/endrhq/.github/454bd9ed14d1f65dc8c22bbb1765dc1c6bec16c9/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bprofile-hero%5D.svg" alt="endr conceptual coordination artwork. Battlefield AI, mission assurance, and human command." width="100%">
   </picture>
 </a>
 

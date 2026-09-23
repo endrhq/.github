@@ -6,9 +6,9 @@ The 2026-09-23 addition uses the original company system map from `/Users/house/
 
 ## 「 01 」「 VISUAL IDENTITY 」
 
-The banner uses endr’s branching mark and outlined lowercase wordmark, warm ivory, graphite, and muted olive. The contour geometry and network are original conceptual illustrations; they contain no geographic, mission, or performance data.
+The banner uses endr’s branching mark and outlined lowercase wordmark, warm ivory, graphite, and muted olive. The contour geometry and network are original conceptual illustrations; they contain no geographic, mission, or performance data. The current desktop/mobile exports come from the `github-profile-v7` source family in `/Users/house/endr/[endr][assets]/`.
 
-Both banner sizes state “Developing mission-assurance software” and retain the research and simulation-first approach. The category label is `「 BATTLEFIELD AI 」`; the headline is “Mission assurance. Human command.” The September 19, 2026 direction places mission assurance first and resilient edge execution later. The network is labeled conceptual coordination: an illustration, not an architecture specification, live topology, or simulation result. Its node count does not specify the MVP team size. Detailed maturity remains in the Development Status section.
+Both banner sizes state “Software for bounded human–AI missions under degraded conditions” and retain the research and simulation-first approach. The category label is `「 BATTLEFIELD AI 」`; the headline is “Mission assurance. Human command.” The September 21, 2026 direction makes Mission Assurance Lab the first product within a broader company mission. The network is labeled conceptual coordination: an illustration, not an architecture specification, live topology, or simulation result. Its node count does not specify the MVP team size. Detailed maturity remains in the Evidence and Limits section.
 
 The branching mark follows the founder-supplied website identity. The outlined wordmark uses Cormorant Garamond, distributed under the SIL Open Font License. The existing company avatar uses the same branching mark. No external image service, tracking badge, JavaScript, or animation is required.
 
