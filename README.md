@@ -29,8 +29,6 @@ Engineering acceptance requires reproducible comparisons, attributable decisions
 
 Mission assurance, distributed coordination, and edge intelligence shape endr’s research. Our work examines agent behavior under faults, authority across system boundaries, and decision reconstruction in constrained environments.
 
-[Engineering repository](https://github.com/endrhq/mission-assurance-lab) (private) · [Technical evidence](https://github.com/endrhq/.github/blob/main/%5Bendr%5D%5Brepository%5D%5Bprofile-status%5D.md)
-
 ## 「 05 」「 CONTACT 」
 
 For engineering collaboration and research inquiries.
