@@ -44,3 +44,7 @@ The September 21 company/product clarification defines M.A.L. as endr’s first 
 ## 「 05 」「 SEPTEMBER 23 PUBLIC VOICE REVISION 」
 
 The public profile now describes company identity, engineering purpose, principles, and research domains without product-sequence labels. The revised system map uses “Assurance” and “Systems Research”; “Edge intelligence” names a research domain. These editorial changes add no implementation, deployment, customer, performance, or validation evidence. The technical states, sequence, review requirements, and authorization boundaries recorded above remain unchanged.
+
+## 「 06 」「 SEPTEMBER 23 SYSTEM MAP DESIGN REVISION 」
+
+The v4 public system map presents mission context, bounded coordination, mission assurance, and human review as conceptual research relationships. Human authority governs the full diagram; M.A.L. represents engineering evaluation and evidence rather than an operational command engine. The illustration uses no operational data. Black bars are editorial redaction motifs, not security classifications or concealed source material. The desktop and mobile artwork adds no implementation, validation, acceptance, or deployment evidence and does not change the technical states or authorization boundaries above.

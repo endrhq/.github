@@ -15,8 +15,8 @@ Our engineering approach centers on explicit authority, bounded behavior, and ev
 Engineering acceptance requires reproducible comparisons, attributable decisions, and an accountable human review.
 
 <picture>
-  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/endrhq/.github/8eff09ab8caa3c96f2ea77d76b495f6e3bdff243/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-mobile-v3%5D.png">
-  <img src="https://raw.githubusercontent.com/endrhq/.github/8eff09ab8caa3c96f2ea77d76b495f6e3bdff243/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-v3%5D.png" alt="endr architecture and research schematic. Human authority sets bounds and reviews evidence. Mission Assurance Lab represents mission assurance; edge intelligence represents systems research in bounded coordination and degraded communications. Illustrative relationships, not a deployment or test result." width="100%">
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/endrhq/.github/fdad10164c57279ad56db5800b99cc628d6c826b/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-mobile-v4%5D.png">
+  <img src="https://raw.githubusercontent.com/endrhq/.github/fdad10164c57279ad56db5800b99cc628d6c826b/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-v4%5D.png" alt="endr conceptual intelligence-layer map. Human authority sets bounds and reviews evidence across four research stages: mission context, bounded coordination, Mission Assurance Lab, and human review. Context includes intent, constraints, and state; coordination examines agents, tasks, and uncertainty; assurance examines faults, configuration comparison, and replay. Evidence supports human disposition, which informs the next configuration. Black redaction bars are decorative. No operational data or validation result." width="100%">
 </picture>
 
 ## 「 03 」「 COMMAND PRINCIPLES 」

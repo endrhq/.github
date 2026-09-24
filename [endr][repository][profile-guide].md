@@ -2,7 +2,7 @@
 
 The public organization profile lives in `profile/README.md`. The root `README.md` mirrors it so the profile repository presents the same company identity. GitHub requires these discovery paths.
 
-The current company system map uses the `github-assurance-panels-v3` family in `/Users/house/endr/[endr][assets]/`. Its PNGs in `profile/[endr][assets][github]/` are publication copies. The built-in image generation tool produced the evergreen/ivory diagram with contour lines, an authority rail, and isometric system geometry. The v3 edit replaces product-sequence labels with assurance and systems-research domains, following the founder’s September 23 public-voice correction. The original v1 SVG and prior v2 raster family remain as history. No third-party screenshot pixels or copy were imported.
+The current company system map uses the `github-intelligence-map-v4` family in `/Users/house/endr/[endr][assets]/`. Its landscape and portrait PNGs in `profile/[endr][assets][github]/` are publication copies. The built-in image generation tool produced an ivory, black, and red editorial research plate with numbered stages, thin technical line illustrations, a human-authority rail, and a review feedback path. A user-supplied poster informed the palette and typography; its logos, copy, numerical claims, and original pixels were not incorporated. The prior v1 SVG and v2/v3 raster families remain as history.
 
 ## 「 01 」「 VISUAL IDENTITY 」
 
@@ -16,7 +16,7 @@ Banner URLs pin the asset commit so updates display consistently without waiting
 
 The banner PNG and historical SVGs are in `profile/[endr][assets][github]/`. The profile uses absolute, encoded raw GitHub URLs so images resolve from both the organization page and repository page.
 
-The system map uses a landscape composition at wider viewports and a separate portrait composition at 640 px and below, selected with a GitHub-compatible `<picture>` element. Its image description and surrounding README text preserve the meaning accessibly. Human authority governs both areas. Public labels describe functions: assurance and systems research. Edge intelligence names the research domain; it is not an announcement of an available execution product. The artwork is conceptual, with no live data or measured result. Node counts, layers, and contours are illustrative geometry rather than an implementation or team specification. Pin both image URLs to the asset commit and update both READMEs together.
+The system map uses a 1586 × 992 landscape composition at wider viewports and a separate 948 × 1659 portrait composition at 640 px and below, selected with a GitHub-compatible `<picture>` element. Its image description and surrounding README text preserve the meaning accessibly. The four stages are mission context, bounded coordination, mission assurance, and human review. Human authority governs bounds and review across the map. Mission Assurance Lab represents configured-workflow evaluation and engineering evidence; it does not issue operational commands or authorize deployment. The return path represents review informing the next configuration. The artwork is labeled conceptual and contains no operational data or measured result. Empty black bars beside `「 INTERNAL RESEARCH 」` are decorative redaction motifs, not a security classification or concealed source material. Node counts and layers are illustrative geometry rather than an implementation or team specification. Pin both image URLs to the asset commit and update both READMEs together.
 
 ## 「 02 」「 SECTION NAMING 」
 
