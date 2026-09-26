@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="940" viewBox="0 0 1440 940" role="img" aria-labelledby="title desc">
+<title id="title">endr — Intent to evidence</title>
+<desc id="desc">Human intent and synthetic context feed Mission Assurance Lab. Baseline, reference and candidate workflows are compared under matched conditions including a simulated lost link. Evidence supports human review. Lost links never expand authority.</desc>
+<defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L9 4.5L0 9Z" fill="#647b6e"/></marker></defs>
+<rect width="1440" height="940" fill="#f0f0ea"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#18231f">
+<text x="60" y="69" font-size="56" font-weight="500" fill="#18231f" text-anchor="start" letter-spacing="-2" font-family="Georgia, Times New Roman, serif">endr</text>
+<text x="1380" y="59" font-size="19" font-weight="400" fill="#18231f" text-anchor="end" letter-spacing="2">「 SYSTEMS RESEARCH 」</text>
+<path d="M60 96H1380" fill="none" stroke="#b8c1b8" stroke-width="1"/>
+<text x="60" y="228" font-size="98" font-weight="600" fill="#18231f" text-anchor="start" letter-spacing="-4">Intent to evidence.</text>
+<text x="64" y="278" font-size="27" font-weight="400" fill="#18231f" text-anchor="start" letter-spacing="0">Human authority. Bounded behavior. Reviewable evidence.</text>
+<path d="M88 368H336" fill="none" stroke="#b8c1b8" stroke-width="1"/>
+<text x="88" y="409" font-size="34" font-weight="600" fill="#18231f" text-anchor="start" letter-spacing="-0.6">Human intent</text>
+<text x="88" y="448" font-size="23" font-weight="400" fill="#18231f" text-anchor="start" letter-spacing="0">Objectives / permissions</text>
+<path d="M88 557H336" fill="none" stroke="#b8c1b8" stroke-width="1"/>
+<text x="88" y="598" font-size="32" font-weight="600" fill="#18231f" text-anchor="start" letter-spacing="-0.8">Synthetic context</text>
+<text x="88" y="637" font-size="24" font-weight="400" fill="#18231f" text-anchor="start" letter-spacing="0">Tasks / resources</text>
+<path d="M348 420H401" fill="none" stroke="#647b6e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M348 610H401" fill="none" stroke="#647b6e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<rect x="410" y="350" width="600" height="368" fill="#274438"/>
+<text x="442" y="405" font-size="41" font-weight="600" fill="#f0f0ea" text-anchor="start" letter-spacing="-1.4">Mission Assurance Lab</text>
+<text x="442" y="451" font-size="28" font-weight="400" fill="#f0f0ea" text-anchor="start" letter-spacing="0">Bounded workflows</text>
+<rect x="442" y="490" width="174" height="80" fill="none" stroke="#9cac9f" stroke-width="1"/>
+<text x="529" y="540" font-size="27" font-weight="500" fill="#f0f0ea" text-anchor="middle" letter-spacing="-0.5">Baseline</text>
+<rect x="623" y="490" width="174" height="80" fill="none" stroke="#9cac9f" stroke-width="1"/>
+<text x="710" y="540" font-size="27" font-weight="500" fill="#f0f0ea" text-anchor="middle" letter-spacing="-0.5">Reference</text>
+<rect x="804" y="490" width="174" height="80" fill="none" stroke="#9cac9f" stroke-width="1"/>
+<text x="891" y="540" font-size="27" font-weight="500" fill="#f0f0ea" text-anchor="middle" letter-spacing="-0.5">Candidate</text>
+<text x="442" y="616" font-size="26" font-weight="400" fill="#f0f0ea" text-anchor="start" letter-spacing="0">Matched conditions</text>
+<rect x="443" y="652" width="11" height="11" fill="#edc580"/>
+<text x="471" y="667" font-size="26" font-weight="400" fill="#edc580" text-anchor="start" letter-spacing="0">Simulated lost link</text>
+<path d="M1010 527H1098" fill="none" stroke="#647b6e" stroke-width="2.5" marker-end="url(#arrow)"/>
+<path d="M1120 407H1378" fill="none" stroke="#b8c1b8" stroke-width="1"/>
+<text x="1120" y="457" font-size="38" font-weight="600" fill="#18231f" text-anchor="start" letter-spacing="-1">Evidence</text>
+<rect x="1121" y="506" width="6" height="6" fill="#647b6e"/>
+<text x="1145" y="518" font-size="31" font-weight="400" fill="#18231f" text-anchor="start" letter-spacing="0">Ledger</text>
+<rect x="1121" y="556" width="6" height="6" fill="#647b6e"/>
+<text x="1145" y="568" font-size="31" font-weight="400" fill="#18231f" text-anchor="start" letter-spacing="0">Report</text>
+<rect x="1121" y="606" width="6" height="6" fill="#647b6e"/>
+<text x="1145" y="618" font-size="31" font-weight="400" fill="#18231f" text-anchor="start" letter-spacing="0">Replay</text>
+<path d="M1226 654V800H30V420H71" fill="none" stroke="#647b6e" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="560" y="778" width="230" height="42" fill="#f0f0ea"/>
+<text x="675" y="809" font-size="27" font-weight="400" fill="#18231f" text-anchor="middle" letter-spacing="0">Human review</text>
+<path d="M60 862H1380" fill="none" stroke="#b8c1b8" stroke-width="1"/>
+<text x="60" y="908" font-size="20" font-weight="400" fill="#18231f" text-anchor="start" letter-spacing="0.2">Conceptual system map</text>
+<text x="1380" y="908" font-size="25" font-weight="500" fill="#18231f" text-anchor="end" letter-spacing="-0.3">Lost links never expand authority.</text>
+</g></svg>
