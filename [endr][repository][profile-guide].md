@@ -2,7 +2,7 @@
 
 The public organization profile lives in `profile/README.md`. The root `README.md` mirrors it so the profile repository presents the same company identity. GitHub requires these discovery paths.
 
-The current company system map uses the `github-intelligence-map-v5` family in `/Users/house/endr/[endr][assets]/`. Its landscape and portrait PNGs in `profile/[endr][assets][github]/` are publication copies. The built-in image generation tool produced a dark charcoal/evergreen architecture illustration with matte graphite isometric software planes, sage callouts, and precise connection paths. User-supplied technical presentation images informed the visual direction; no third-party logos, product names, slogans, claims, or source pixels are included. Earlier v1–v4 artwork remains as history.
+The current company system map uses the `github-intelligence-map-v6` family in `/Users/house/endr/[endr][assets]/`. Its landscape and portrait PNGs in `profile/[endr][assets][github]/` are publication copies. The built-in image generation tool restyled v5 using endr’s own coastal banner as its identity reference. Marine graphite, engraved slate, quiet coastal contours, warm ivory serif labels, numbered corner brackets, hollow annotation anchors, and sea-glass process arrows give the layered structure a distinct endr treatment. No third-party reference images were supplied for this restyle. Earlier v1–v5 artwork remains as history.
 
 ## 「 01 」「 VISUAL IDENTITY 」
 
@@ -16,7 +16,7 @@ Banner URLs pin the asset commit so updates display consistently without waiting
 
 The banner PNG and historical SVGs are in `profile/[endr][assets][github]/`. The profile uses absolute, encoded raw GitHub URLs so images resolve from both the organization page and repository page.
 
-The system map uses a 1660 × 948 landscape composition at wider viewports and a separate 954 × 1649 portrait composition at 640 px and below, selected with a GitHub-compatible `<picture>` element. Five callouts explain human intent, mission context, bounded coordination, Mission Assurance Lab, and evidence review. Synthetic context feeds the workflows; baseline, reference, and candidate are parallel configurations under matched conditions. The lost-link fault appears on the human-authority communications connection, while the authority boundary remains intact. Evidence from each comparison joins a shared layer and returns to human review. This is a conceptual software map, not a depiction of deployed hardware or measured performance. Its accessible image description preserves these relationships. Pin both image URLs to the asset commit and update both READMEs together.
+The system map uses a 1659 × 948 landscape composition at wider viewports and a separate 954 × 1649 portrait composition at 640 px and below, selected with a GitHub-compatible `<picture>` element. Five callouts explain human intent, mission context, bounded coordination, Mission Assurance Lab, and evidence review. Synthetic context feeds the workflows; baseline, reference, and candidate are parallel configurations under matched conditions. The lost-link fault appears on the human-authority communications connection, while the authority boundary remains intact. Evidence from each comparison joins a shared layer and returns to human review. This is a conceptual software map, not a depiction of deployed hardware or measured performance. Its accessible image description preserves these relationships. Pin both image URLs to the asset commit and update both READMEs together.
 
 ## 「 02 」「 SECTION NAMING 」
 
