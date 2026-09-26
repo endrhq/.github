@@ -15,8 +15,8 @@ Our engineering approach centers on explicit authority, bounded behavior, and ev
 Engineering acceptance requires reproducible comparisons, attributable decisions, and an accountable human review.
 
 <picture>
-  <source media="(max-width: 1100px)" srcset="https://raw.githubusercontent.com/endrhq/.github/a2ade7871d229f388548424a2a14841ff47b47fa/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-mobile-v8%5D.png">
-  <img src="https://raw.githubusercontent.com/endrhq/.github/a2ade7871d229f388548424a2a14841ff47b47fa/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-v8%5D.png" alt="endr conceptual system map. Human intent defines objectives, permissions, and constraints. Synthetic mission context feeds bounded agent workflows. Mission Assurance Lab compares baseline, reference, and candidate configurations in parallel under matched conditions and defined faults. A lost communications link does not expand the authority boundary. Each comparison contributes to a shared evidence layer, decision ledger, report, and replay; evidence returns to human review." width="100%">
+  <source media="(max-width: 1100px)" srcset="https://raw.githubusercontent.com/endrhq/.github/914dee3bc63719e1ff1d24cec7974415164ee18e/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-mobile-v9%5D.svg">
+  <img src="https://raw.githubusercontent.com/endrhq/.github/914dee3bc63719e1ff1d24cec7974415164ee18e/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-v9%5D.svg" alt="endr conceptual system map: Intent to evidence. Human intent, including objectives and permissions, and synthetic context, including tasks and resources, feed Mission Assurance Lab. Bounded workflows are compared across baseline, reference and candidate configurations under matched conditions, including a simulated lost link. Evidence consists of a ledger, report and replay. Human review returns to human intent. Lost links never expand authority." width="100%">
 </picture>
 
 ## 「 03 」「 COMMAND PRINCIPLES 」
