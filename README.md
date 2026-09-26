@@ -15,8 +15,8 @@ Our engineering approach centers on explicit authority, bounded behavior, and ev
 Engineering acceptance requires reproducible comparisons, attributable decisions, and an accountable human review.
 
 <picture>
-  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/endrhq/.github/9c42dcd9978c81f384a6921730c9238aabd85771/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-mobile-v4%5D.png">
-  <img src="https://raw.githubusercontent.com/endrhq/.github/9c42dcd9978c81f384a6921730c9238aabd85771/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-v4%5D.png" alt="endr conceptual intelligence-layer map. Human authority sets bounds and reviews evidence across four research stages: mission context, bounded coordination, Mission Assurance Lab, and human review. Context includes intent, constraints, and state; coordination examines agents, tasks, and uncertainty; assurance examines faults, configuration comparison, and replay. Evidence supports human disposition, which informs the next configuration. Black redaction bars are decorative. No operational data or validation result." width="100%">
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/endrhq/.github/7e3f1877cca8de09115566b60f6775e4a4b08aa3/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-mobile-v5%5D.png">
+  <img src="https://raw.githubusercontent.com/endrhq/.github/7e3f1877cca8de09115566b60f6775e4a4b08aa3/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-v5%5D.png" alt="endr conceptual system map. Human intent defines objectives, permissions, and constraints. Synthetic mission context feeds bounded agent workflows. Mission Assurance Lab compares baseline, reference, and candidate configurations in parallel under matched conditions and defined faults. A lost communications link does not expand the authority boundary. Each comparison contributes to a shared evidence layer, decision ledger, report, and replay; evidence returns to human review." width="100%">
 </picture>
 
 ## 「 03 」「 COMMAND PRINCIPLES 」
