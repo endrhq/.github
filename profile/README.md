@@ -15,8 +15,8 @@ Our engineering approach centers on explicit authority, bounded behavior, and ev
 Engineering acceptance requires reproducible comparisons, attributable decisions, and an accountable human review.
 
 <picture>
-  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/endrhq/.github/ecf50ab31833747790fe39b1943cc3920cd06e13/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-mobile-v6%5D.png">
-  <img src="https://raw.githubusercontent.com/endrhq/.github/ecf50ab31833747790fe39b1943cc3920cd06e13/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-v6%5D.png" alt="endr conceptual system map. Human intent defines objectives, permissions, and constraints. Synthetic mission context feeds bounded agent workflows. Mission Assurance Lab compares baseline, reference, and candidate configurations in parallel under matched conditions and defined faults. A lost communications link does not expand the authority boundary. Each comparison contributes to a shared evidence layer, decision ledger, report, and replay; evidence returns to human review." width="100%">
+  <source media="(max-width: 640px)" srcset="https://raw.githubusercontent.com/endrhq/.github/2e6d32da8dbab00506879908e23aad65adb5878b/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-mobile-v7%5D.png">
+  <img src="https://raw.githubusercontent.com/endrhq/.github/2e6d32da8dbab00506879908e23aad65adb5878b/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-v7%5D.png" alt="endr conceptual system map. Human intent defines objectives, permissions, and constraints. Synthetic mission context feeds bounded agent workflows. Mission Assurance Lab compares baseline, reference, and candidate configurations in parallel under matched conditions and defined faults. A lost communications link does not expand the authority boundary. Each comparison contributes to a shared evidence layer, decision ledger, report, and replay; evidence returns to human review." width="100%">
 </picture>
 
 ## 「 03 」「 COMMAND PRINCIPLES 」

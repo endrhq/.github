@@ -2,7 +2,7 @@
 
 The public organization profile lives in `profile/README.md`. The root `README.md` mirrors it so the profile repository presents the same company identity. GitHub requires these discovery paths.
 
-The current company system map uses the `github-intelligence-map-v6` family in `/Users/house/endr/[endr][assets]/`. Its landscape and portrait PNGs in `profile/[endr][assets][github]/` are publication copies. The built-in image generation tool restyled v5 using endr’s own coastal banner as its identity reference. Marine graphite, engraved slate, quiet coastal contours, warm ivory serif labels, numbered corner brackets, hollow annotation anchors, and sea-glass process arrows give the layered structure a distinct endr treatment. No third-party reference images were supplied for this restyle. Earlier v1–v5 artwork remains as history.
+The current company system map uses the `github-intelligence-map-v7` family in `/Users/house/endr/[endr][assets]/`. Its landscape and portrait PNGs in `profile/[endr][assets][github]/` are publication copies. The built-in image generation tool restyled v6 as a professional AI systems-research figure. Graphite technical sheets, warm-white sans-serif headings, precise monospace indices, restrained hatching, hollow annotation anchors, sage process arrows, and an amber simulated-fault marker retain endr’s identity. Only the wordmark is serif; localized context contours replace the prior scenic artwork and stone texture. The founder-requested [Langfuse](https://langfuse.com/) reference informed general framing, type hierarchy, and research-interface discipline after visual inspection; no reference-site images, logos, copy, data, or claims are incorporated. Earlier v1–v6 artwork remains as history.
 
 ## 「 01 」「 VISUAL IDENTITY 」
 
