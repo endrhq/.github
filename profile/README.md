@@ -15,31 +15,31 @@ Our engineering approach centers on explicit authority, bounded behavior, and ev
 Engineering acceptance requires reproducible comparisons, attributable decisions, and an accountable human review.
 
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"17px","primaryColor":"#161d24","primaryTextColor":"#e6edf3","primaryBorderColor":"#52616b","lineColor":"#91a49a","secondaryColor":"#1b2c25","tertiaryColor":"#0d1117","clusterBkg":"#0d1117","clusterBorder":"#34424d","titleColor":"#adbac4","edgeLabelBackground":"#0d1117"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":35,"padding":16}}}%%
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"17px","primaryColor":"#161d24","primaryTextColor":"#e6edf3","primaryBorderColor":"#52616b","lineColor":"#91a49a","secondaryColor":"#1b2c25","tertiaryColor":"#0d1117","clusterBkg":"#0d1117","clusterBorder":"#34424d","titleColor":"#adbac4","edgeLabelBackground":"#0d1117"},"htmlLabels":false,"flowchart":{"htmlLabels":false,"curve":"linear","nodeSpacing":28,"rankSpacing":35,"padding":16}}}%%
 flowchart TB
     accTitle: endr — Mission Assurance Lab
     accDescr: Conceptual synthetic research architecture. Matched workflows submit requests to independent authority evaluation. An ordered ledger feeds comparison and replay, then human review. Lost links never expand authority.
 
-    subgraph INPUTS["01 · CONTEXT & AUTHORITY"]
-        SCENARIO["Scenario fixture<br/>Tasks · resources · initial state"]
-        MANIFEST["Run manifest<br/>Versions · seeds · fault schedule"]
-        AUTHORITY["Human authority<br/>Scope · policy · valid approvals"]
+    subgraph INPUTS["「 01 」 INPUTS"]
+        SCENARIO["Scenario fixture<br/>Tasks · resources · state"]
+        MANIFEST["Run manifest<br/>Versions · seeds · faults"]
+        AUTHORITY["Human authority<br/>Scope · policy · approvals"]
     end
 
-    subgraph EVALUATION["02 · CONTROLLED EVALUATION"]
+    subgraph EVALUATION["「 02 」 EVALUATION"]
         HARNESS["Scenario & fault harness<br/>Nominal · lost link · recovery"]
         WORKFLOWS["Compared workflows<br/>Baseline · reference · candidate"]
-        GATE["Independent authority evaluator<br/>Scope · permission · approval"]
+        GATE["Authority evaluator<br/>Independent execution boundary"]
         STATE["Simulated state<br/>Permitted effects only"]
         HARNESS --> WORKFLOWS
         WORKFLOWS -->|Proposed requests| GATE
         GATE --> STATE
     end
 
-    subgraph EVIDENCE["03 · EVIDENCE & REVIEW"]
+    subgraph EVIDENCE["「 03 」 EVIDENCE"]
         LEDGER["Decision ledger<br/>Requests · reasons · effects"]
         REPORT["Comparison report<br/>Criteria by run and condition"]
-        REPLAY["Replay<br/>State reconstruction · discrepancies"]
+        REPLAY["Replay<br/>State · discrepancies"]
         REVIEW["Human review<br/>Disposition · next-run revisions"]
         LEDGER --> REPORT & REPLAY
         REPORT & REPLAY --> REVIEW
