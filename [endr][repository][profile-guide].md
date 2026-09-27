@@ -2,7 +2,7 @@
 
 The public organization profile lives in `profile/README.md`. The root `README.md` mirrors it so the profile repository presents the same company identity. GitHub requires these discovery paths.
 
-The current system map is a native Mermaid flowchart embedded identically in `profile/README.md` and the root `README.md`. These Markdown files are the editable source. It replaces the static v11 artwork with three grouped layers: inputs, controlled evaluation, and evidence. Dark graphite nodes and restrained sage accents follow the profile identity. Previous image families remain unchanged as history.
+The current system map is a native Mermaid block diagram embedded identically in `profile/README.md` and the root `README.md`. These Markdown files are the editable source. A fixed two-column grid replaces the earlier grouped flowchart: nine short component labels, neutral paper-and-ink nodes, and one pale-sage authority boundary. Technical explanation sits below the chart as accessible README text. Previous Mermaid revisions and image families remain preserved in history.
 
 ## 「 01 」「 VISUAL IDENTITY 」
 
@@ -16,7 +16,7 @@ Banner URLs pin the asset commit so updates display consistently without waiting
 
 The banner PNG and historical SVGs are in `profile/[endr][assets][github]/`. The profile uses absolute, encoded raw GitHub URLs so images resolve from both the organization page and repository page.
 
-The system map uses GitHub's native Mermaid renderer and built-in expanded view, zoom, pan, and reset controls. Keep its source in a fenced `mermaid` block, with `accTitle` and `accDescr` for accessibility. SVG text labels (`htmlLabels: false`) avoid clipped layer headings in GitHub's renderer. A top-to-bottom layout keeps control and evidence paths distinct; next-run revisions are stated within Human review rather than drawn as a long return connection. Scenario fixtures and run manifests feed matched workflows. Human authority supplies policy independently to the execution boundary. Attempted requests and decisions are recorded separately from executed effects; comparison and replay consume the ledger in parallel. Preserve the conceptual/synthetic caption and do not imply live telemetry or measured results. No custom scripts, external diagram service, callback handlers, or separate desktop/mobile image exports are required. Verify native rendering and controls on GitHub whenever changing the diagram.
+The system map uses GitHub's native Mermaid renderer and built-in expanded view, zoom, pan, and reset controls. Keep its source in a fenced `mermaid` block using the verified `block-beta` syntax. Explicit column spans and spacer rows keep the components aligned; avoid enclosing cluster boxes, long node descriptions, and crowded edge labels. Scenario inputs and the run manifest feed matched workflows. Human authority supplies policy independently to the execution boundary. The boundary's requests and decisions enter the ledger separately from simulated-state effects; comparison and replay consume the ledger in parallel. Human review informs the next run, not an automatic permission change. Preserve the explanatory paragraph and conceptual/synthetic caption. Do not imply live telemetry or measured results. No custom scripts, external diagram service, callback handlers, or separate desktop/mobile image exports are required. Verify native rendering and controls on GitHub whenever changing the diagram.
 
 ## 「 02 」「 SECTION NAMING 」
 

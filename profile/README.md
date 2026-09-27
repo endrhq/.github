@@ -20,7 +20,7 @@ Engineering acceptance requires reproducible comparisons, attributable decisions
 %%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"18px","primaryColor":"#eceeea","primaryTextColor":"#202824","primaryBorderColor":"#77817b","lineColor":"#9ba59f","edgeLabelBackground":"#0d1117"},"block":{"padding":10}}}%%
 block-beta
     columns 5
-    CONFIG["Scenario & run contract"]:2 space AUTHORITY["Human authority"]:2
+    CONFIG["Scenario & run manifest"]:2 space AUTHORITY["Human authority"]:2
     space:5
     RUNS["Matched workflows"]:2 space BOUNDARY["Authority boundary"]:2
     space:5
@@ -45,7 +45,7 @@ block-beta
     class BOUNDARY boundary
 ```
 
-Matched workflows compare baseline, reference, and candidate under the same scenario inputs and declared fault schedules. The authority boundary evaluates proposed requests independently; the ledger records requests, decisions, and permitted simulated effects. Comparison and replay support human decisions for the next run.
+Matched workflows compare baseline, reference, and candidate under the same scenario inputs and declared fault schedules. The authority boundary evaluates proposed requests independently; the ledger records requests, decisions, and observed simulated effects. Comparison and replay support human decisions for the next run.
 
 *Conceptual research architecture · Synthetic scenarios · Lost links never expand authority.*
 
