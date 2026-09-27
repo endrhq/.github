@@ -17,7 +17,7 @@ Engineering acceptance requires reproducible comparisons, attributable decisions
 **Evaluation & evidence flow**
 
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"18px","primaryColor":"#eceeea","primaryTextColor":"#202824","primaryBorderColor":"#77817b","lineColor":"#9ba59f","edgeLabelBackground":"#0d1117"},"block":{"padding":18}}}%%
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"18px","primaryColor":"#eceeea","primaryTextColor":"#202824","primaryBorderColor":"#77817b","lineColor":"#9ba59f","edgeLabelBackground":"#0d1117"},"block":{"padding":10}}}%%
 block-beta
     columns 5
     CONFIG["Scenario & run contract"]:2 space AUTHORITY["Human authority"]:2
