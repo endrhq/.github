@@ -15,8 +15,8 @@ Our engineering approach centers on explicit authority, bounded behavior, and ev
 Engineering acceptance requires reproducible comparisons, attributable decisions, and an accountable human review.
 
 <picture>
-  <source media="(max-width: 1100px)" srcset="https://raw.githubusercontent.com/endrhq/.github/914dee3bc63719e1ff1d24cec7974415164ee18e/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-mobile-v9%5D.svg">
-  <img src="https://raw.githubusercontent.com/endrhq/.github/914dee3bc63719e1ff1d24cec7974415164ee18e/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-v9%5D.svg" alt="endr conceptual system map: Intent to evidence. Human intent, including objectives and permissions, and synthetic context, including tasks and resources, feed Mission Assurance Lab. Bounded workflows are compared across baseline, reference and candidate configurations under matched conditions, including a simulated lost link. Evidence consists of a ledger, report and replay. Human review returns to human intent. Lost links never expand authority." width="100%">
+  <source media="(max-width: 1100px)" srcset="https://raw.githubusercontent.com/endrhq/.github/9d9aaf07f29686b493eaad5c0901f08b7d17f144/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-mobile-v10%5D.png">
+  <img src="https://raw.githubusercontent.com/endrhq/.github/9d9aaf07f29686b493eaad5c0901f08b7d17f144/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-v10%5D.png" alt="endr conceptual research architecture. Human authority and synthetic mission context feed bounded workflows within defined authority limits. Mission Assurance Lab compares baseline, reference and candidate configurations in three parallel lanes under matched conditions. A simulated lost link interrupts communication without expanding authority. Outputs converge into a ledger, report and replay, with evidence returning to human review." width="100%">
 </picture>
 
 ## 「 03 」「 COMMAND PRINCIPLES 」
