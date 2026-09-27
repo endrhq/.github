@@ -17,59 +17,39 @@ Engineering acceptance requires reproducible comparisons, attributable decisions
 **Systems research / Mission Assurance Lab**
 
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"17px","primaryColor":"#222b27","primaryTextColor":"#eeeee7","primaryBorderColor":"#55635b","lineColor":"#a8b5ab","edgeLabelBackground":"#0d1117"},"block":{"padding":16}}}%%
-block-beta
-    columns 1
-    block:SETUP
-        columns 5
-        SETUP_TITLE["「 01 」 EXPERIMENT SETUP"]:5
-        SCENARIO["Scenario + faults"] MANIFEST["Run manifest"] space AUTHORITY["Human authority"]:2
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"18px","primaryColor":"#19242c","primaryTextColor":"#e9edf0","primaryBorderColor":"#5a6a76","lineColor":"#9aada5","clusterBkg":"#111920","clusterBorder":"#384852","titleColor":"#c2ccd2","edgeLabelBackground":"#0d1117"},"htmlLabels":false,"flowchart":{"htmlLabels":false,"curve":"stepAfter","nodeSpacing":24,"rankSpacing":32,"padding":16,"subGraphTitleMargin":{"top":12,"bottom":20}}}}%%
+flowchart TB
+    accTitle: endr — Systems research architecture
+    accDescr: Three layers show experiment setup, the evaluation harness, and evidence with human review. Matched workflows operate within independently evaluated human authority. Synthetic requests, decisions, and observed effects feed comparison and replay.
+
+    subgraph SETUP["01 / EXPERIMENT SETUP"]
+        direction LR
+        SCENARIO["Scenario fixture<br/>Tasks / state / faults"] ~~~ MANIFEST["Run manifest<br/>Versions / seeds"] ~~~ AUTHORITY["Human authority<br/>Bounds / approvals"]
     end
-    space
-    block:HARNESS
-        columns 7
-        HARNESS_TITLE["「 02 」 EVALUATION HARNESS"]:7
-        block:WORKFLOWS:2
-            columns 1
-            WF_TITLE["MATCHED WORKFLOWS"]
-            BASELINE["Baseline"]
-            REFERENCE["Reference"]
-            CANDIDATE["Candidate"]
+
+    subgraph HARNESS["02 / EVALUATION HARNESS"]
+        direction LR
+        subgraph WORKFLOWS["MATCHED WORKFLOWS"]
+            direction TB
+            BASELINE["Baseline"] ~~~ REFERENCE["Reference"] ~~~ CANDIDATE["Candidate"]
         end
-        space
-        EVALUATOR["Authority evaluator<br/>Scope / permissions"]:2
-        space
+        EVALUATOR["Authority evaluator<br/>Independent boundary"]
         STATE["Synthetic state<br/>Simulated effects"]
-    end
-    space
-    block:EVIDENCE
-        columns 7
-        EVIDENCE_TITLE["「 03 」 EVIDENCE & REVIEW"]:7
-        LEDGER["Decision ledger<br/>Requests / decisions / effects"]:2
-        space
-        ANALYSIS["Comparison + replay<br/>Criteria / state / discrepancies"]:2
-        space
-        REVIEW["Human review<br/>Disposition"]
+        WORKFLOWS -->|Requests| EVALUATOR
+        EVALUATOR -->|Permitted effects| STATE
     end
 
-    SCENARIO --> WORKFLOWS
-    MANIFEST --> WORKFLOWS
-    AUTHORITY --> EVALUATOR
-    WORKFLOWS -- "requests" --> EVALUATOR
-    EVALUATOR --> STATE
-    EVALUATOR --> LEDGER
-    STATE --> LEDGER
-    LEDGER --> ANALYSIS
-    ANALYSIS --> REVIEW
+    subgraph EVIDENCE["03 / EVIDENCE & REVIEW"]
+        direction LR
+        LEDGER["Decision ledger<br/>Requests / decisions / effects"] --> ANALYSIS["Comparison + replay<br/>Criteria / state / discrepancies"] --> REVIEW["Human review<br/>Next-run disposition"]
+    end
 
-    classDef layer fill:#141b18,stroke:#3b4740,stroke-width:1px
-    classDef heading fill:transparent,stroke:transparent,color:#b8c7bb,font-size:14px,font-weight:600
-    classDef boundary fill:#a8b9a8,stroke:#c8d5c7,color:#18221b,stroke-width:1.5px
-    classDef workflows fill:#1b2420,stroke:#627467
-    class SETUP,HARNESS,EVIDENCE layer
-    class SETUP_TITLE,HARNESS_TITLE,EVIDENCE_TITLE,WF_TITLE heading
+    SETUP --> HARNESS
+    HARNESS --> EVIDENCE
+
+    classDef boundary fill:#a8b9a8,stroke:#cfdbcb,color:#142119,stroke-width:1.5px
     class EVALUATOR boundary
-    class WORKFLOWS workflows
+    style WORKFLOWS fill:#17221e,stroke:#62756a,color:#c8d6cc
 ```
 
 The harness compares baseline, reference, and candidate workflows under matched synthetic scenarios and declared faults. Human authority defines the evaluator’s bounds. Requests, decisions, and observed effects feed comparison and replay; human review determines the next run.
