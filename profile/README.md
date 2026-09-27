@@ -14,10 +14,51 @@ Our engineering approach centers on explicit authority, bounded behavior, and ev
 
 Engineering acceptance requires reproducible comparisons, attributable decisions, and an accountable human review.
 
-<picture>
-  <source media="(max-width: 1100px)" srcset="https://raw.githubusercontent.com/endrhq/.github/0c5a11148727b027ba62224a19023fa9ab2824ed/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-mobile-v11%5D.svg">
-  <img src="https://raw.githubusercontent.com/endrhq/.github/0c5a11148727b027ba62224a19023fa9ab2824ed/profile/%5Bendr%5D%5Bassets%5D%5Bgithub%5D/%5Bendr%5D%5Basset%5D%5Bcompany-system-map-v11%5D.svg" alt="endr conceptual research architecture for Mission Assurance Lab. Scenario fixtures and run manifests supply baseline, reference and candidate workflows under matched nominal and lost-link conditions. A separately supplied authority policy governs an independent evaluator at the execution boundary. Requests, decisions and executed effects enter an ordered ledger. The ledger feeds comparison and replay, which support human review and revised inputs for subsequent runs. Lost links never expand authority." width="100%">
-</picture>
+```mermaid
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"17px","primaryColor":"#161d24","primaryTextColor":"#e6edf3","primaryBorderColor":"#52616b","lineColor":"#91a49a","secondaryColor":"#1b2c25","tertiaryColor":"#0d1117","clusterBkg":"#0d1117","clusterBorder":"#34424d","titleColor":"#adbac4","edgeLabelBackground":"#0d1117"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":42,"padding":18}}}%%
+flowchart TB
+    accTitle: endr — Mission Assurance Lab
+    accDescr: Conceptual synthetic research architecture. Matched workflows submit requests to independent authority evaluation. An ordered ledger feeds comparison and replay, then human review. Lost links never expand authority.
+
+    subgraph INPUTS["「 01 」 CONTEXT & AUTHORITY"]
+        SCENARIO["Scenario fixture<br/>Tasks · resources · initial state"]
+        MANIFEST["Run manifest<br/>Versions · seeds · fault schedule"]
+        AUTHORITY["Human authority<br/>Scope · policy · valid approvals"]
+    end
+
+    subgraph EVALUATION["「 02 」 CONTROLLED EVALUATION"]
+        HARNESS["Scenario & fault harness<br/>Nominal · lost link · recovery"]
+        WORKFLOWS["Compared workflows<br/>Baseline · reference · candidate"]
+        GATE["Independent authority evaluator<br/>Scope · permission · approval"]
+        STATE["Simulated state<br/>Permitted effects only"]
+        HARNESS --> WORKFLOWS
+        WORKFLOWS -->|Proposed requests| GATE
+        GATE --> STATE
+    end
+
+    subgraph EVIDENCE["「 03 」 EVIDENCE & REVIEW"]
+        LEDGER["Decision ledger<br/>Requests · reasons · effects"]
+        REPORT["Comparison report<br/>Criteria by run and condition"]
+        REPLAY["Replay<br/>State reconstruction · discrepancies"]
+        REVIEW["Human review<br/>Evidence · disposition"]
+        LEDGER --> REPORT & REPLAY
+        REPORT & REPLAY --> REVIEW
+    end
+
+    SCENARIO & MANIFEST --> HARNESS
+    AUTHORITY -.->|Rules & approvals| GATE
+    GATE -->|Requests & decisions| LEDGER
+    STATE -->|Executed effects| LEDGER
+    STATE -.->|Observations| WORKFLOWS
+    REVIEW -.->|Next-run revisions| AUTHORITY
+
+    classDef authority fill:#1b2c25,stroke:#98b4a4,color:#edf3ef,stroke-width:1.5px
+    classDef evidence fill:#182129,stroke:#70828e,color:#e6edf3
+    class AUTHORITY,GATE,REVIEW authority
+    class LEDGER,REPORT,REPLAY evidence
+```
+
+*Conceptual research architecture · Synthetic scenarios · Lost links never expand authority.*
 
 ## 「 03 」「 COMMAND PRINCIPLES 」
 
