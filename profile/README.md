@@ -43,7 +43,7 @@ flowchart TB
 
     subgraph EVIDENCE["03 / EVIDENCE & REVIEW"]
         direction LR
-        LEDGER["Decision ledger<br/>Requests / decisions / effects"] --> ANALYSIS["Comparison + replay<br/>Criteria / state / discrepancies"] --> REVIEW["Human review<br/>Next-run disposition"]
+        LEDGER["Decision ledger<br/>Decisions / observed effects"] --> ANALYSIS["Comparison + replay<br/>Criteria / state"] --> REVIEW["Human review<br/>Next-run disposition"]
     end
 
     SETUP --> HARNESS
