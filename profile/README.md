@@ -15,18 +15,18 @@ Our engineering approach centers on explicit authority, bounded behavior, and ev
 Engineering acceptance requires reproducible comparisons, attributable decisions, and an accountable human review.
 
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"17px","primaryColor":"#161d24","primaryTextColor":"#e6edf3","primaryBorderColor":"#52616b","lineColor":"#91a49a","secondaryColor":"#1b2c25","tertiaryColor":"#0d1117","clusterBkg":"#0d1117","clusterBorder":"#34424d","titleColor":"#adbac4","edgeLabelBackground":"#0d1117"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":42,"padding":18}}}%%
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"17px","primaryColor":"#161d24","primaryTextColor":"#e6edf3","primaryBorderColor":"#52616b","lineColor":"#91a49a","secondaryColor":"#1b2c25","tertiaryColor":"#0d1117","clusterBkg":"#0d1117","clusterBorder":"#34424d","titleColor":"#adbac4","edgeLabelBackground":"#0d1117"},"flowchart":{"curve":"linear","nodeSpacing":28,"rankSpacing":35,"padding":16}}}%%
 flowchart TB
     accTitle: endr — Mission Assurance Lab
     accDescr: Conceptual synthetic research architecture. Matched workflows submit requests to independent authority evaluation. An ordered ledger feeds comparison and replay, then human review. Lost links never expand authority.
 
-    subgraph INPUTS["「 01 」 CONTEXT & AUTHORITY"]
+    subgraph INPUTS["01 · CONTEXT & AUTHORITY"]
         SCENARIO["Scenario fixture<br/>Tasks · resources · initial state"]
         MANIFEST["Run manifest<br/>Versions · seeds · fault schedule"]
         AUTHORITY["Human authority<br/>Scope · policy · valid approvals"]
     end
 
-    subgraph EVALUATION["「 02 」 CONTROLLED EVALUATION"]
+    subgraph EVALUATION["02 · CONTROLLED EVALUATION"]
         HARNESS["Scenario & fault harness<br/>Nominal · lost link · recovery"]
         WORKFLOWS["Compared workflows<br/>Baseline · reference · candidate"]
         GATE["Independent authority evaluator<br/>Scope · permission · approval"]
@@ -36,11 +36,11 @@ flowchart TB
         GATE --> STATE
     end
 
-    subgraph EVIDENCE["「 03 」 EVIDENCE & REVIEW"]
+    subgraph EVIDENCE["03 · EVIDENCE & REVIEW"]
         LEDGER["Decision ledger<br/>Requests · reasons · effects"]
         REPORT["Comparison report<br/>Criteria by run and condition"]
         REPLAY["Replay<br/>State reconstruction · discrepancies"]
-        REVIEW["Human review<br/>Evidence · disposition"]
+        REVIEW["Human review<br/>Disposition · next-run revisions"]
         LEDGER --> REPORT & REPLAY
         REPORT & REPLAY --> REVIEW
     end
@@ -49,8 +49,6 @@ flowchart TB
     AUTHORITY -.->|Rules & approvals| GATE
     GATE -->|Requests & decisions| LEDGER
     STATE -->|Executed effects| LEDGER
-    STATE -.->|Observations| WORKFLOWS
-    REVIEW -.->|Next-run revisions| AUTHORITY
 
     classDef authority fill:#1b2c25,stroke:#98b4a4,color:#edf3ef,stroke-width:1.5px
     classDef evidence fill:#182129,stroke:#70828e,color:#e6edf3
