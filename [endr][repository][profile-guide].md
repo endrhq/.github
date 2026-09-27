@@ -2,7 +2,7 @@
 
 The public organization profile lives in `profile/README.md`. The root `README.md` mirrors it so the profile repository presents the same company identity. GitHub requires these discovery paths.
 
-The current company system map uses the `github-intelligence-map-v11` family in `/Users/house/endr/[endr][assets]/`. The founder requested a clean technical systems overview after rejecting the illustrative v10. The new native SVG artwork uses flat graphite panels, crisp typography, distinct control and evidence paths, and explicit contracts, execution, and reconstruction layers. Its editable builder and PNG renderings remain in the canonical family. This version is authored directly as vector artwork; no image generation or external artwork is used. Earlier v1–v10 artwork remains as history.
+The current system map is a native Mermaid flowchart embedded identically in `profile/README.md` and the root `README.md`. These Markdown files are the editable source. It replaces the static v11 artwork with three grouped layers: inputs, controlled evaluation, and evidence. Dark graphite nodes and restrained sage accents follow the profile identity. Previous image families remain unchanged as history.
 
 ## 「 01 」「 VISUAL IDENTITY 」
 
@@ -16,7 +16,7 @@ Banner URLs pin the asset commit so updates display consistently without waiting
 
 The banner PNG and historical SVGs are in `profile/[endr][assets][github]/`. The profile uses absolute, encoded raw GitHub URLs so images resolve from both the organization page and repository page.
 
-The system map uses a 1400 × 1160 landscape SVG at wider viewports and a separate 800 × 2440 portrait SVG at 1100 px and below, selected with a GitHub-compatible `<picture>` element. Main portrait descriptions use 34-pixel vector type, about 13 pixels when GitHub displays the artwork at 309 pixels wide. Scenario fixtures and versioned run manifests feed a shared fault harness and three parallel workflow configurations. Independently supplied authority policy governs evaluation at the execution boundary. Requests, decisions and executed effects feed the ledger; comparison and replay separately support human review. These are conceptual research relationships, not live status or measured results. Accessible descriptions preserve the flow. Publish byte-identical self-contained SVG copies in `profile/[endr][assets][github]/`; pin both image URLs to the asset commit and update both READMEs together.
+The system map uses GitHub's native Mermaid renderer and built-in expanded view, zoom, pan, and reset controls. Keep its source in a fenced `mermaid` block, with `accTitle` and `accDescr` for accessibility. SVG text labels (`htmlLabels: false`) avoid clipped layer headings in GitHub's renderer. A top-to-bottom layout keeps control and evidence paths distinct; next-run revisions are stated within Human review rather than drawn as a long return connection. Scenario fixtures and run manifests feed matched workflows. Human authority supplies policy independently to the execution boundary. Attempted requests and decisions are recorded separately from executed effects; comparison and replay consume the ledger in parallel. Preserve the conceptual/synthetic caption and do not imply live telemetry or measured results. No custom scripts, external diagram service, callback handlers, or separate desktop/mobile image exports are required. Verify native rendering and controls on GitHub whenever changing the diagram.
 
 ## 「 02 」「 SECTION NAMING 」
 
