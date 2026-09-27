@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1160" viewBox="0 0 1400 1160" role="img" aria-labelledby="title desc">
+<title id="title">endr — Mission Assurance Lab research layer overview</title>
+<desc id="desc">Conceptual synthetic research architecture. Scenario fixtures and a run manifest supply matched baseline, reference and candidate workflows. Nominal and lost-link conditions are applied consistently. Independent authority evaluation sits at the execution boundary; tested workflows cannot change policy or evidence. Decision ledger, comparison report and replay support human review. Review informs subsequent inputs. Lost links never expand authority.</desc>
+<defs><marker id="flow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L8 4L0 8Z" fill="#afc8ba"/></marker><marker id="control" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse"><path d="M0 0L8 4L0 8Z" fill="#adbac4"/></marker></defs>
+<rect width="1400" height="1160" fill="#0d1117"/>
+<g font-family="Arial, Helvetica, sans-serif" fill="#e7ecef">
+<text x="44" y="59" font-size="39" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="-1.6">endr</text>
+<path d="M146 29V66" fill="none" stroke="#34424d" stroke-width="1"/>
+<text x="170" y="54" font-size="20" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="1" font-family="SFMono-Regular, Menlo, Consolas, monospace">SYSTEMS RESEARCH</text>
+<text x="1356" y="54" font-size="18" fill="#adbac4" font-weight="400" text-anchor="end" letter-spacing="0" font-family="SFMono-Regular, Menlo, Consolas, monospace">ARCHITECTURE / M.A.L.</text>
+<path d="M44 84H1356" fill="none" stroke="#34424d" stroke-width="1"/>
+<text x="84" y="145" font-size="43" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="-1.1">Mission Assurance Lab</text>
+<text x="84" y="181" font-size="24" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">Controlled evaluation of agent workflows</text>
+<text x="1340" y="173" font-size="18" fill="#afc8ba" font-weight="400" text-anchor="end" letter-spacing="0" font-family="SFMono-Regular, Menlo, Consolas, monospace">SYNTHETIC SCOPE</text>
+<text x="84" y="224" font-size="19" fill="#afc8ba" font-weight="400" text-anchor="start" letter-spacing="0" font-family="SFMono-Regular, Menlo, Consolas, monospace">「 01 」</text>
+<text x="179" y="224" font-size="20" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0.6" font-family="SFMono-Regular, Menlo, Consolas, monospace">CONTRACTS &amp; CONTEXT</text>
+<path d="M84 239H1340" fill="none" stroke="#34424d" stroke-width="1"/>
+<rect x="84" y="251" width="392" height="100" fill="#121920" stroke="#34424d" stroke-width="1"/>
+<text x="106" y="289" font-size="28" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="0">Scenario fixture</text>
+<text x="106" y="327" font-size="22" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">Tasks · resources · initial state</text>
+<rect x="516" y="251" width="392" height="100" fill="#121920" stroke="#34424d" stroke-width="1"/>
+<text x="538" y="289" font-size="28" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="0">Run manifest</text>
+<text x="538" y="327" font-size="22" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">Versions · hashes · seeds</text>
+<rect x="948" y="251" width="392" height="100" fill="#121920" stroke="#34424d" stroke-width="1"/>
+<text x="970" y="289" font-size="28" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="0">Authority policy</text>
+<text x="970" y="327" font-size="22" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">Permissions · approval rules</text>
+<path d="M280 351V372H730V430H243V438" fill="none" stroke="#afc8ba" stroke-width="2" marker-end="url(#flow)"/>
+<path d="M712 351V372" fill="none" stroke="#afc8ba" stroke-width="2"/>
+<circle cx="712" cy="372" r="3" fill="#afc8ba"/>
+<path d="M1144 351V429" fill="none" stroke="#adbac4" stroke-width="2" marker-end="url(#control)" stroke-dasharray="6 6"/>
+<text x="84" y="407" font-size="19" fill="#afc8ba" font-weight="400" text-anchor="start" letter-spacing="0" font-family="SFMono-Regular, Menlo, Consolas, monospace">「 02 」</text>
+<text x="179" y="407" font-size="20" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0.6" font-family="SFMono-Regular, Menlo, Consolas, monospace">CONTROLLED EXECUTION</text>
+<path d="M84 422H1340" fill="none" stroke="#34424d" stroke-width="1"/>
+<rect x="84" y="441" width="318" height="307" fill="#121920" stroke="#34424d" stroke-width="1"/>
+<text x="106" y="479" font-size="24" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="0">Scenario &amp; fault harness</text>
+<text x="106" y="513" font-size="21" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">Same conditions per run</text>
+<path d="M106 533H380" fill="none" stroke="#34424d" stroke-width="1"/>
+<text x="106" y="568" font-size="23" fill="#e7ecef" font-weight="400" text-anchor="start" letter-spacing="0">Deterministic clock</text>
+<text x="106" y="604" font-size="23" fill="#e7ecef" font-weight="400" text-anchor="start" letter-spacing="0">Matched seeds</text>
+<path d="M106 626H380" fill="none" stroke="#34424d" stroke-width="1"/>
+<circle cx="113" cy="657" r="4" fill="#afc8ba"/>
+<text x="128" y="665" font-size="24" fill="#e7ecef" font-weight="400" text-anchor="start" letter-spacing="0">Nominal</text>
+<circle cx="113" cy="704" r="4" fill="#d5aa70"/>
+<text x="128" y="712" font-size="23" fill="#d5aa70" font-weight="400" text-anchor="start" letter-spacing="0">Lost link → recovery</text>
+<path d="M402 577H421V704" fill="none" stroke="#afc8ba" stroke-width="2"/>
+<path d="M421 577V501" fill="none" stroke="#afc8ba" stroke-width="2"/>
+<path d="M421 501H444" fill="none" stroke="#afc8ba" stroke-width="2" marker-end="url(#flow)"/>
+<circle cx="421" cy="501" r="3" fill="#afc8ba"/>
+<path d="M421 593H444" fill="none" stroke="#afc8ba" stroke-width="2" marker-end="url(#flow)"/>
+<circle cx="421" cy="593" r="3" fill="#afc8ba"/>
+<path d="M421 685H444" fill="none" stroke="#afc8ba" stroke-width="2" marker-end="url(#flow)"/>
+<circle cx="421" cy="685" r="3" fill="#afc8ba"/>
+<text x="449" y="466" font-size="19" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0" font-family="SFMono-Regular, Menlo, Consolas, monospace">WORKFLOW CONFIGURATIONS</text>
+<rect x="450" y="481" width="442" height="72" fill="#182129" stroke="#34424d" stroke-width="1"/>
+<text x="470" y="510" font-size="26" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="0">Baseline</text>
+<text x="470" y="537" font-size="20" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">Scripted scheduler</text>
+<path d="M892 517H940" fill="none" stroke="#afc8ba" stroke-width="2" marker-end="url(#flow)"/>
+<rect x="450" y="573" width="442" height="72" fill="#182129" stroke="#34424d" stroke-width="1"/>
+<text x="470" y="602" font-size="26" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="0">Reference</text>
+<text x="470" y="629" font-size="20" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">Reference configuration</text>
+<path d="M892 609H940" fill="none" stroke="#afc8ba" stroke-width="2" marker-end="url(#flow)"/>
+<rect x="450" y="665" width="442" height="72" fill="#182129" stroke="#34424d" stroke-width="1"/>
+<text x="470" y="694" font-size="26" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="0">Candidate</text>
+<text x="470" y="721" font-size="20" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">One declared change</text>
+<path d="M892 701H940" fill="none" stroke="#afc8ba" stroke-width="2" marker-end="url(#flow)"/>
+<rect x="948" y="441" width="392" height="307" fill="#121920" stroke="#34424d" stroke-width="1"/>
+<rect x="948" y="441" width="4" height="307" fill="#afc8ba" stroke="#afc8ba" stroke-width="0"/>
+<text x="974" y="476" font-size="18" fill="#afc8ba" font-weight="400" text-anchor="start" letter-spacing="0" font-family="SFMono-Regular, Menlo, Consolas, monospace">EXECUTION BOUNDARY</text>
+<text x="974" y="518" font-size="29" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="0">Authority evaluator</text>
+<path d="M974 541H1315" fill="none" stroke="#34424d" stroke-width="1"/>
+<text x="974" y="577" font-size="23" fill="#e7ecef" font-weight="400" text-anchor="start" letter-spacing="0">Check scope &amp; permission</text>
+<text x="974" y="615" font-size="23" fill="#e7ecef" font-weight="400" text-anchor="start" letter-spacing="0">Require valid approval</text>
+<text x="974" y="651" font-size="23" fill="#e7ecef" font-weight="400" text-anchor="start" letter-spacing="0">Lost link pauses new</text>
+<text x="974" y="678" font-size="23" fill="#e7ecef" font-weight="400" text-anchor="start" letter-spacing="0">consequential actions</text>
+<path d="M974 691H1315" fill="none" stroke="#34424d" stroke-width="1"/>
+<text x="974" y="723" font-size="23" fill="#afc8ba" font-weight="600" text-anchor="start" letter-spacing="0">Attempted ≠ executed</text>
+<path d="M1144 748V776H776V850H280V854" fill="none" stroke="#afc8ba" stroke-width="2" marker-end="url(#flow)"/>
+<rect x="603" y="761" width="347" height="30" fill="#0d1117" stroke="#0d1117" stroke-width="0"/>
+<text x="776" y="783" font-size="19" fill="#adbac4" font-weight="400" text-anchor="middle" letter-spacing="0">Requests / decisions / effects</text>
+<text x="84" y="823" font-size="19" fill="#afc8ba" font-weight="400" text-anchor="start" letter-spacing="0" font-family="SFMono-Regular, Menlo, Consolas, monospace">「 03 」</text>
+<text x="179" y="823" font-size="20" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0.6" font-family="SFMono-Regular, Menlo, Consolas, monospace">EVIDENCE &amp; RECONSTRUCTION</text>
+<path d="M84 838H1340" fill="none" stroke="#34424d" stroke-width="1"/>
+<rect x="84" y="857" width="392" height="148" fill="#121920" stroke="#34424d" stroke-width="1"/>
+<text x="106" y="899" font-size="28" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="0">Decision ledger</text>
+<text x="106" y="940" font-size="22" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">Ordered events + provenance</text>
+<text x="106" y="972" font-size="22" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">Attempts and executed effects</text>
+<rect x="548" y="857" width="792" height="72" fill="#121920" stroke="#34424d" stroke-width="1"/>
+<text x="570" y="887" font-size="28" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="0">Comparison report</text>
+<text x="570" y="916" font-size="22" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">Criteria by configuration and condition</text>
+<rect x="548" y="945" width="792" height="72" fill="#121920" stroke="#34424d" stroke-width="1"/>
+<text x="570" y="975" font-size="28" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="0">Replay</text>
+<text x="570" y="1004" font-size="22" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">Reconstruct state; report discrepancies</text>
+<path d="M476 931H511V893H540" fill="none" stroke="#afc8ba" stroke-width="2" marker-end="url(#flow)"/>
+<path d="M511 931V981H540" fill="none" stroke="#afc8ba" stroke-width="2" marker-end="url(#flow)"/>
+<circle cx="511" cy="931" r="3" fill="#afc8ba"/>
+<path d="M1340 893H1364V1028H712V1041" fill="none" stroke="#afc8ba" stroke-width="2" marker-end="url(#flow)"/>
+<path d="M1340 981H1364" fill="none" stroke="#afc8ba" stroke-width="2"/>
+<circle cx="1364" cy="981" r="3" fill="#afc8ba"/>
+<rect x="84" y="1046" width="1256" height="64" fill="#182129" stroke="#34424d" stroke-width="1"/>
+<text x="108" y="1087" font-size="28" fill="#e7ecef" font-weight="600" text-anchor="start" letter-spacing="0">Human review</text>
+<text x="355" y="1087" font-size="24" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0">Inspect evidence  /  record disposition  /  revise bounds</text>
+<path d="M84 1074H51V300H76" fill="none" stroke="#adbac4" stroke-width="2" marker-end="url(#control)" stroke-dasharray="6 6"/>
+<text x="84" y="1141" font-size="16" fill="#adbac4" font-weight="400" text-anchor="start" letter-spacing="0" font-family="SFMono-Regular, Menlo, Consolas, monospace">CONCEPTUAL RESEARCH ARCHITECTURE</text>
+<text x="1340" y="1141" font-size="20" fill="#afc8ba" font-weight="400" text-anchor="end" letter-spacing="0">Lost links never expand authority.</text>
+</g></svg>
