@@ -20,7 +20,7 @@ Engineering acceptance requires reproducible comparisons, attributable decisions
 %%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"18px","primaryColor":"#19242c","primaryTextColor":"#e9edf0","primaryBorderColor":"#5a6a76","lineColor":"#9aada5","clusterBkg":"#111920","clusterBorder":"#384852","titleColor":"#c2ccd2","edgeLabelBackground":"#0d1117"},"htmlLabels":false,"flowchart":{"htmlLabels":false,"curve":"stepAfter","nodeSpacing":24,"rankSpacing":32,"padding":16,"subGraphTitleMargin":{"top":12,"bottom":20}}}}%%
 flowchart TB
     accTitle: endr — Systems research architecture
-    accDescr: Three layers show experiment setup, the evaluation harness, and evidence with human review. Matched workflows operate within independently evaluated human authority. Synthetic requests, decisions, and observed effects feed comparison and replay.
+    accDescr: Three layers show experiment setup, the evaluation harness, and evidence with human review. Requests are evaluated independently against human-defined authority. Synthetic requests, decisions, and observed effects feed comparison and replay.
 
     subgraph SETUP["01 / EXPERIMENT SETUP"]
         direction LR
@@ -29,14 +29,16 @@ flowchart TB
 
     subgraph HARNESS["02 / EVALUATION HARNESS"]
         direction LR
-        subgraph WORKFLOWS["MATCHED WORKFLOWS"]
+        subgraph WORKFLOWS["WORKFLOWS"]
             direction TB
-            BASELINE["Baseline"] ~~~ REFERENCE["Reference"] ~~~ CANDIDATE["Candidate"]
+            BASELINE["Baseline"]
+            REFERENCE["Reference"]
+            CANDIDATE["Candidate"]
         end
         EVALUATOR["Authority evaluator<br/>Independent boundary"]
-        STATE["Synthetic state<br/>Simulated effects"]
-        WORKFLOWS -->|Requests| EVALUATOR
-        EVALUATOR -->|Permitted effects| STATE
+        STATE["Synthetic state<br/>Isolated per run"]
+        BASELINE & REFERENCE & CANDIDATE --> EVALUATOR
+        EVALUATOR -->|Authorized requests| STATE
     end
 
     subgraph EVIDENCE["03 / EVIDENCE & REVIEW"]
