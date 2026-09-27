@@ -14,47 +14,38 @@ Our engineering approach centers on explicit authority, bounded behavior, and ev
 
 Engineering acceptance requires reproducible comparisons, attributable decisions, and an accountable human review.
 
+**Evaluation & evidence flow**
+
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"17px","primaryColor":"#161d24","primaryTextColor":"#e6edf3","primaryBorderColor":"#52616b","lineColor":"#91a49a","secondaryColor":"#1b2c25","tertiaryColor":"#0d1117","clusterBkg":"#0d1117","clusterBorder":"#34424d","titleColor":"#adbac4","edgeLabelBackground":"#0d1117"},"htmlLabels":false,"flowchart":{"htmlLabels":false,"curve":"linear","nodeSpacing":28,"rankSpacing":35,"padding":16}}}%%
-flowchart TB
-    accTitle: endr — Mission Assurance Lab
-    accDescr: Conceptual synthetic research architecture. Matched workflows submit requests to independent authority evaluation. An ordered ledger feeds comparison and replay, then human review. Lost links never expand authority.
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"18px","primaryColor":"#eceeea","primaryTextColor":"#202824","primaryBorderColor":"#77817b","lineColor":"#9ba59f","edgeLabelBackground":"#0d1117"},"block":{"padding":18}}}%%
+block-beta
+    columns 5
+    CONFIG["Scenario & run contract"]:2 space AUTHORITY["Human authority"]:2
+    space:5
+    RUNS["Matched workflows"]:2 space BOUNDARY["Authority boundary"]:2
+    space:5
+    LEDGER["Decision ledger"]:2 space STATE["Simulated state"]:2
+    space:5
+    REPORT["Comparison report"]:2 space REPLAY["State replay"]:2
+    space:5
+    REVIEW["Human review / next-run decisions"]:5
 
-    subgraph INPUTS["「 01 」 INPUTS"]
-        SCENARIO["Scenario fixture<br/>Tasks · resources · state"]
-        MANIFEST["Run manifest<br/>Versions · seeds · faults"]
-        AUTHORITY["Human authority<br/>Scope · policy · approvals"]
-    end
+    CONFIG --> RUNS
+    AUTHORITY --> BOUNDARY
+    RUNS --> BOUNDARY
+    BOUNDARY --> STATE
+    BOUNDARY --> LEDGER
+    STATE --> LEDGER
+    LEDGER --> REPORT
+    LEDGER --> REPLAY
+    REPORT --> REVIEW
+    REPLAY --> REVIEW
 
-    subgraph EVALUATION["「 02 」 EVALUATION"]
-        HARNESS["Scenario & fault harness<br/>Nominal · lost link · recovery"]
-        WORKFLOWS["Compared workflows<br/>Baseline · reference · candidate"]
-        GATE["Authority evaluator<br/>Independent execution boundary"]
-        STATE["Simulated state<br/>Permitted effects only"]
-        HARNESS --> WORKFLOWS
-        WORKFLOWS -->|Proposed requests| GATE
-        GATE --> STATE
-    end
-
-    subgraph EVIDENCE["「 03 」 EVIDENCE"]
-        LEDGER["Decision ledger<br/>Requests · reasons · effects"]
-        REPORT["Comparison report<br/>Criteria by run and condition"]
-        REPLAY["Replay<br/>State · discrepancies"]
-        REVIEW["Human review<br/>Disposition · next-run revisions"]
-        LEDGER --> REPORT & REPLAY
-        REPORT & REPLAY --> REVIEW
-    end
-
-    SCENARIO & MANIFEST --> HARNESS
-    AUTHORITY -.->|Rules & approvals| GATE
-    GATE -->|Requests & decisions| LEDGER
-    STATE -->|Executed effects| LEDGER
-
-    classDef authority fill:#1b2c25,stroke:#98b4a4,color:#edf3ef,stroke-width:1.5px
-    classDef evidence fill:#182129,stroke:#70828e,color:#e6edf3
-    class AUTHORITY,GATE,REVIEW authority
-    class LEDGER,REPORT,REPLAY evidence
+    classDef boundary fill:#c9d8cd,stroke:#7d9b87,stroke-width:2px,color:#18271e
+    class BOUNDARY boundary
 ```
+
+Matched workflows compare baseline, reference, and candidate under the same scenario inputs and declared fault schedules. The authority boundary evaluates proposed requests independently; the ledger records requests, decisions, and permitted simulated effects. Comparison and replay support human decisions for the next run.
 
 *Conceptual research architecture · Synthetic scenarios · Lost links never expand authority.*
 
