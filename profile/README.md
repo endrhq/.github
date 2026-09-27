@@ -14,38 +14,65 @@ Our engineering approach centers on explicit authority, bounded behavior, and ev
 
 Engineering acceptance requires reproducible comparisons, attributable decisions, and an accountable human review.
 
-**Evaluation & evidence flow**
+**Systems research / Mission Assurance Lab**
 
 ```mermaid
-%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"18px","primaryColor":"#eceeea","primaryTextColor":"#202824","primaryBorderColor":"#77817b","lineColor":"#9ba59f","edgeLabelBackground":"#0d1117"},"block":{"padding":10}}}%%
+%%{init: {"theme":"base","themeVariables":{"fontFamily":"Arial, Helvetica, sans-serif","fontSize":"17px","primaryColor":"#222b27","primaryTextColor":"#eeeee7","primaryBorderColor":"#55635b","lineColor":"#a8b5ab","edgeLabelBackground":"#0d1117"},"block":{"padding":16}}}%%
 block-beta
-    columns 5
-    CONFIG["Scenario & run manifest"]:2 space AUTHORITY["Human authority"]:2
-    space:5
-    RUNS["Matched workflows"]:2 space BOUNDARY["Authority boundary"]:2
-    space:5
-    LEDGER["Decision ledger"]:2 space STATE["Simulated state"]:2
-    space:5
-    REPORT["Comparison report"]:2 space REPLAY["State replay"]:2
-    space:5
-    REVIEW["Human review / next-run decisions"]:5
+    columns 1
+    block:SETUP
+        columns 5
+        SETUP_TITLE["「 01 」 EXPERIMENT SETUP"]:5
+        SCENARIO["Scenario + faults"] MANIFEST["Run manifest"] space AUTHORITY["Human authority"]:2
+    end
+    space
+    block:HARNESS
+        columns 7
+        HARNESS_TITLE["「 02 」 EVALUATION HARNESS"]:7
+        block:WORKFLOWS:2
+            columns 1
+            WF_TITLE["MATCHED WORKFLOWS"]
+            BASELINE["Baseline"]
+            REFERENCE["Reference"]
+            CANDIDATE["Candidate"]
+        end
+        space
+        EVALUATOR["Authority evaluator<br/>Scope / permissions"]:2
+        space
+        STATE["Synthetic state<br/>Simulated effects"]
+    end
+    space
+    block:EVIDENCE
+        columns 7
+        EVIDENCE_TITLE["「 03 」 EVIDENCE & REVIEW"]:7
+        LEDGER["Decision ledger<br/>Requests / decisions / effects"]:2
+        space
+        ANALYSIS["Comparison + replay<br/>Criteria / state / discrepancies"]:2
+        space
+        REVIEW["Human review<br/>Disposition"]
+    end
 
-    CONFIG --> RUNS
-    AUTHORITY --> BOUNDARY
-    RUNS --> BOUNDARY
-    BOUNDARY --> STATE
-    BOUNDARY --> LEDGER
+    SCENARIO --> WORKFLOWS
+    MANIFEST --> WORKFLOWS
+    AUTHORITY --> EVALUATOR
+    WORKFLOWS -- "requests" --> EVALUATOR
+    EVALUATOR --> STATE
+    EVALUATOR --> LEDGER
     STATE --> LEDGER
-    LEDGER --> REPORT
-    LEDGER --> REPLAY
-    REPORT --> REVIEW
-    REPLAY --> REVIEW
+    LEDGER --> ANALYSIS
+    ANALYSIS --> REVIEW
 
-    classDef boundary fill:#c9d8cd,stroke:#7d9b87,stroke-width:2px,color:#18271e
-    class BOUNDARY boundary
+    classDef layer fill:#141b18,stroke:#3b4740,stroke-width:1px
+    classDef heading fill:transparent,stroke:transparent,color:#b8c7bb,font-size:14px,font-weight:600
+    classDef boundary fill:#a8b9a8,stroke:#c8d5c7,color:#18221b,stroke-width:1.5px
+    classDef workflows fill:#1b2420,stroke:#627467
+    class SETUP,HARNESS,EVIDENCE layer
+    class SETUP_TITLE,HARNESS_TITLE,EVIDENCE_TITLE,WF_TITLE heading
+    class EVALUATOR boundary
+    class WORKFLOWS workflows
 ```
 
-Matched workflows compare baseline, reference, and candidate under the same scenario inputs and declared fault schedules. The authority boundary evaluates proposed requests independently; the ledger records requests, decisions, and observed simulated effects. Comparison and replay support human decisions for the next run.
+The harness compares baseline, reference, and candidate workflows under matched synthetic scenarios and declared faults. Human authority defines the evaluator’s bounds. Requests, decisions, and observed effects feed comparison and replay; human review determines the next run.
 
 *Conceptual research architecture · Synthetic scenarios · Lost links never expand authority.*
 
